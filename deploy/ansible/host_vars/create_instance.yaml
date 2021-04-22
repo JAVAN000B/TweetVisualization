@@ -3,6 +3,7 @@ availability_zone: melbourne-qh2-uom
 # instance_network: qh2-uom-internal
 instance_flavor: uom.mse.2c9g
 instance_image: f8b79936-6616-4a22-b55d-0d0a1d27bceb # NeCTAR Ubuntu 18.04 LTS (Bionic) amd64 (with Docker)
+instance_key_name: empty
 
 # ! volume
 volumes:
@@ -12,7 +13,7 @@ volumes:
     mountpoint: /home/ubuntu/data/
 
 # ! security group
-security-groups:
+security_groups:
   - name: shi_hu_hu
     description: "dei ci ci, e xin xin"
     protocol: tcp
