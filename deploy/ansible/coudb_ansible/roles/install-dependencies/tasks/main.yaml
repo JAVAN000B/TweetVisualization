@@ -1,0 +1,34 @@
+---
+
+- name: append_proxy
+  become: yes
+  lineinfile:
+    dest: /etc/environment
+    line: '{{proxy}}'
+
+- name: reboot_3min
+  become: yes
+  become_user: root
+  reboot:
+    reboot_timeout: 180 #3min
+
+- name: update_upgrade
+  become: yes
+  apt:
+    upgrade: yes
+    update_cache: yes
+    cache_valid_time: 86400 #One day
+
+- name: install_dependency
+  become: yes
+  apt:
+    name: ['vim']
+    state: latest
+
+# - name: touch_text
+#   become: yes
+#   file:
+#     path: /home/ubuntu/test
+#     state: touch
+#     mode: u+rwx
+#     owner: ubuntu
