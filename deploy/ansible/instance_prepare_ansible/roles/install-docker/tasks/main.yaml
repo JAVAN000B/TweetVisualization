@@ -1,0 +1,19 @@
+---
+
+- name: curl docker install shell
+  become: yes
+  shell: curl -fsSL https://get.docker.com -o /home/ubuntu/data/get-docker.sh
+
+- name: sh install docker
+  become: yes
+  shell: sh /home/ubuntu/data/get-docker.sh
+
+- name: append user ubuntu to docker
+  become: yes
+  shell: usermod -aG docker ubuntu
+
+- name: install docker-compose
+  become: yes
+  apt:
+    name: ['docker-compose']
+    state: latest

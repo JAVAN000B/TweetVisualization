@@ -1,3 +1,6 @@
+disks:
+      /dev/vdb: /home/ubuntu/data
+
 proxy: HTTP_PROXY=http://wwwproxy.unimelb.edu.au:8000/
 
        HTTPS_PROXY=http://wwwproxy.unimelb.edu.au:8000/

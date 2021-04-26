@@ -1,17 +1,5 @@
 ---
 
-- name: append_proxy
-  become: yes
-  lineinfile:
-    dest: /etc/environment
-    line: '{{proxy}}'
-
-- name: reboot_3min
-  become: yes
-  become_user: root
-  reboot:
-    reboot_timeout: 180 #3min
-
 - name: update_upgrade
   become: yes
   apt:
@@ -22,7 +10,7 @@
 - name: install_dependency
   become: yes
   apt:
-    name: ['vim']
+    name: ['vim','git']
     state: latest
 
 # - name: touch_text

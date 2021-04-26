@@ -1,0 +1,13 @@
+---
+
+- name: append_proxy
+  become: yes
+  lineinfile:
+    dest: /etc/environment
+    line: '{{proxy}}'
+
+- name: reboot_3min
+  become: yes
+  become_user: root
+  reboot:
+    reboot_timeout: 180 #3min
