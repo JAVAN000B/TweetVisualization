@@ -10,7 +10,7 @@
   gather_facts: true
 
   roles:
-    # - role: append-proxy
-    # - role: mount-volums
-    # - role: install-dependencies
+    - role: append-proxy
+    - role: mount-volums
+    - role: install-dependencies
     - role: install-docker

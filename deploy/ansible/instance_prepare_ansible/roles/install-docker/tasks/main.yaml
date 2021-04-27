@@ -17,3 +17,31 @@
   apt:
     name: ['docker-compose']
     state: latest
+
+- name: add docker draemon proxy directory
+  become: yes
+  file:
+    path: /etc/systemd/system/docker.service.d
+    state: directory
+
+- name: copy proxy file to instance
+  become: yes
+  copy:
+    src: '{{docker-proxy-file}}'
+    dest: "/etc/systemd/system/docker.service.d/"
+
+- name: flush draemon
+  become: yes
+  shell: systemctl daemon-reload
+
+- name: restar docker
+  become: yes
+  shell: systemctl restart docker
+
+# - name: touch_text
+#   become: yes
+#   file:
+#     path: /home/ubuntu/test
+#     state: touch
+#     mode: u+rwx
+#     owner: ubuntu
