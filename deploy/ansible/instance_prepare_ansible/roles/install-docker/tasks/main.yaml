@@ -24,11 +24,23 @@
     path: /etc/systemd/system/docker.service.d
     state: directory
 
-- name: copy proxy file to instance
+- name: copy proxy file to draemon proxy directory
   become: yes
   copy:
-    src: '{{docker-proxy-file}}'
+    src: ../../../host_vars/http-proxy.conf
     dest: "/etc/systemd/system/docker.service.d/"
+
+- name: add docker proxy directory
+  become: yes
+  file:
+    path: /home/ubuntu/.docker
+    state: directory
+
+- name: copy proxy file to docker proxy directory
+  become: yes
+  copy:
+    src: ../../../host_vars/config.json
+    dest: /home/ubuntu/.docker
 
 - name: flush draemon
   become: yes
@@ -37,11 +49,3 @@
 - name: restar docker
   become: yes
   shell: systemctl restart docker
-
-# - name: touch_text
-#   become: yes
-#   file:
-#     path: /home/ubuntu/test
-#     state: touch
-#     mode: u+rwx
-#     owner: ubuntu

@@ -1,0 +1,5 @@
+---
+
+- name: create test database
+  shell: curl -XPUT "http://{{item.user}}:{{item.pass}}@{{ansible_default_ipv4['address']}}:5984/twitter"
+  loop: '{{couchdb}}'

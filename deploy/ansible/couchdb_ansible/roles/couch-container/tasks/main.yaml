@@ -1,0 +1,32 @@
+---
+# - name: pull coudb image
+#   shell: docker pull ibmcom/couchdb3:'{{item.version}}'
+#   loop: '{{ couchdb }}'
+
+# - name: export couchdb params
+#   become: yes
+#   shell: |
+#     export user='{{item.user}}'
+#     export pass='{{item.pass}}'
+#     export cookie='{{item.cookie}}'
+#     export VERSION='{{item.version}}'
+#     export node='{{ansible_default_ipv4['address']}}'
+#   loop: '{{ couchdb }}'
+
+- name: crerate couchdb container
+  become: yes
+  shell: >
+    docker create
+    --name couchdb{{ansible_default_ipv4['address']}}
+    -p 80:80 -p 443:443 -p 5984:5984 -p 4369:4369 -p 9100-9200:9100-9200
+    -v /home/ubuntu/data
+    --env COUCHDB_USER={{item.user}}
+    --env COUCHDB_PASSWORD={{item.pass}}
+    --env COUCHDB_SECRET=${cookie}
+    --env ERL_FLAGS="-setcookie \"{{item.cookie}}\" -name \"couchdb@{{ansible_default_ipv4['address']}}\""
+    ibmcom/couchdb3:{{item.version}}
+  loop: '{{ couchdb }}'
+
+- name: start couchdb container
+  become: yes
+  shell: docker start couchdb{{ansible_default_ipv4['address']}}
