@@ -1,0 +1,84 @@
+@import url("//unpkg.com/element-ui@2.15.1/lib/theme-chalk/index.css");
+body {
+    margin: 0;
+    font-family: "Helvetica Neue";
+    background-image: url("images/data_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.el-header {
+    text-align: center;
+}
+
+
+.el-footer {
+    background-color: #303133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.el-menu {
+    padding: 5px
+}
+
+.block {
+    border-radius: 25px;
+}
+
+#main_carousel .el-carousel__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main_carousel .el-carousel__item h3 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+#main_carousel .el-carousel__item:nth-child(4n) {
+    background-image: url("images/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#main_carousel .el-carousel__item:nth-child(4n+1) {
+    background-image: url("images/social_media.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#main_carousel .el-carousel__item:nth-child(4n+2) {
+    background-image: url("images/technology.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#main_carousel .el-carousel__item:nth-child(4n+3) {
+    background-image: url("images/perth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#analysis_carousel .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+
+#analysis_carousel .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+
+
+.bg-purple-dark {
+    background: #99a9bf;
+}
