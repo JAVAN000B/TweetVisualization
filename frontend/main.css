@@ -7,9 +7,22 @@ body {
     background-size: cover;
 }
 
+.el-menu-item {
+    font-size: 15px;
+}
+
+#el-submenu .template {
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
 
 .el-header {
     text-align: center;
+    height: .3125rem !important;
 }
 
 
@@ -21,7 +34,7 @@ body {
 }
 
 .el-menu {
-    padding: 5px
+    padding: auto !important;
 }
 
 .block {
