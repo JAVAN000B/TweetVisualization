@@ -1,7 +1,7 @@
 from flask import Flask
-import requests
-
-import couchdbUtils
+from backend import couchdbUtils
+from backend import couchdbView
+import couchdb
 
 app = Flask(__name__)
 
