@@ -1,4 +1,7 @@
 from flask import Flask
+import requests
+
+import couchdbUtils
 
 app = Flask(__name__)
 
@@ -7,9 +10,11 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!'
 
-@app.route('/getTweet/')
-def get_tweet():
-    return None
+
+@app.route('/couchdb/view/')
+def couchdb_get_all_city():
+    jsonRes = couchdbUtils.get_view('tweet_loc', 1)
+    return jsonRes
 
 
 if __name__ == '__main__':
