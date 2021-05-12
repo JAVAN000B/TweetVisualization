@@ -1,0 +1,11 @@
+version: "1"
+services:
+  backend:
+    image: backend:latest
+    build: .
+    container_name: backend
+    volumes:
+    - "/home/ubuntu/data/backenddocker:/projects/log"
+    restart: always
+    ports:
+    - "8001:80"
