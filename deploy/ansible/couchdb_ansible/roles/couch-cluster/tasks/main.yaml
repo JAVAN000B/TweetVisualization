@@ -1,94 +1,94 @@
 ---
 
-# - name: create cluser curl1
-#   shell: >
-#     curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
-#     --header "Content-Type: application/json"
-#     --data "{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\",
-#     \"username\": \"{{item.user}}\", \"password\":\"{{item.pass}}\", \"port\": \"5984\",
-#     \"remote_node\": \"{{ansible_default_ipv4['address']}}\", \"node_count\": \"3\",
-#     \"remote_current_user\":\"{{item.user}}\", \"remote_current_password\":\"{{item.pass}}\"}"
-#   loop: '{{couchdb}}'
-
-# - name: create cluser curl2
-#   shell: >
-#     curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
-#     --header "Content-Type: application/json"
-#     --data "{\"action\": \"add_node\", \"host\":\"{{ansible_default_ipv4['address']}}\",
-#     \"port\": \"5984\", \"username\": \"{{item.user}}\", \"password\":\"{item.pass}\"}"
-#   loop: '{{couchdb}}'
-
-# - name: create cluster curl3
-#   shell: curl -XGET "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/"
-#   loop: '{{couchdb}}'
-
-# - name: create cluster curl4
-#   shell: >
-#     curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
-#     --header "Content-Type: application/json" --data "{\"action\": \"finish_cluster\"}"
-
-#   loop: '{{couchdb}}'
-
-- name: setup couchdb cluster | step 1
-  become: yes
-  uri:
-    url: http://{{ groups['masternode'][0] }}:5984/_cluster_setup
-    status_code: 201
-    method: POST
-    user: "{{ item.user}}"
-    password:  "{{ item.pass}}"
-    force_basic_auth: yes
-    return_content: yes
-    body_format: json
-    body: "{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\",\
-             \"username\": \"{{ item.user}}\", \"password\":\"{{item.pass}}\", \"port\": \"{5984\",\
-             \"remote_node\": \"{{ansible_default_ipv4['address']}}\", \"node_count\": \"3\",\
-             \"remote_current_user\":\"{{ item.user }}\", \"remote_current_password\":\"{{ item.pass }}\"}"
-    headers:
-      Content-Type: "application/json"
-  loop: "{{ couchdb }}"
-
-- name: setup couchdb cluster | step 2
-  become: yes
-  uri:
-    url: http://{{ groups['masternode'][0] }}:5984/_cluster_setup
-    status_code: 201
-    method: POST
-    user: "{{ item.user}}"
-    password:  "{{ item.pass }}"
-    force_basic_auth: yes
-    return_content: yes
-    body_format: json
-    body: "{\"action\": \"add_node\", \"host\":\"{{ansible_default_ipv4['address']}}\",\
-             \"port\": \"5984\", \"username\": \"{{item.user}}\", \"password\":\"{{ item.pass}}\"}"
-    headers:
-      Content-Type: "application/json"
-  loop: "{{ couchdb }}"
-
-- name: setup couchdb cluster | step 2.5
-  become: yes
-  uri:
-    url: http://{{ groups['masternode'][0] }}:5984/
-    status_code: 200,201,409
-    method: GET
-    user: "{{ item.user }}"
-    password:  "{{ item.pass }}"
-    force_basic_auth: yes
-    return_content: yes
+- name: create cluser curl1
+  shell: >
+    curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
+    --header "Content-Type: application/json"
+    --data "{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\",
+    \"username\": \"{{item.user}}\", \"password\":\"{{item.pass}}\", \"port\": \"5984\",
+    \"remote_node\": \"{{ansible_default_ipv4['address']}}\", \"node_count\": \"3\",
+    \"remote_current_user\":\"{{item.user}}\", \"remote_current_password\":\"{{item.pass}}\"}"
   loop: '{{couchdb}}'
 
+- name: create cluser curl2
+  shell: >
+    curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
+    --header "Content-Type: application/json"
+    --data "{\"action\": \"add_node\", \"host\":\"{{ansible_default_ipv4['address']}}\",
+    \"port\": \"5984\", \"username\": \"{{item.user}}\", \"password\":\"{item.pass}\"}"
+  loop: '{{couchdb}}'
 
-- name: steup couchdb cluster | step 3 -- finish
-  become: yes
-  uri:
-    url: http://{{ groups['masternode'][0] }}:5984/_cluster_setup
-    status_code: 201
-    method: POST
-    user: "admin"
-    password:  "admin"
-    force_basic_auth: yes
-    return_content: yes
-    body_format: json
-    body: "{\"action\": \"finish_cluster\"}"
-    headers:
-      Content-Type: "application/json"
+- name: create cluster curl3
+  shell: curl -XGET "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/"
+  loop: '{{couchdb}}'
+
+- name: create cluster curl4
+  shell: >
+    curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
+    --header "Content-Type: application/json" --data "{\"action\": \"finish_cluster\"}"
+
+  loop: '{{couchdb}}'
+
+# - name: setup couchdb cluster | step 1
+#   become: yes
+#   uri:
+#     url: http://{{ groups['masternode'][0] }}:5984/_cluster_setup
+#     status_code: 201
+#     method: POST
+#     user: "{{ item.user}}"
+#     password:  "{{ item.pass}}"
+#     force_basic_auth: yes
+#     return_content: yes
+#     body_format: json
+#     body: "{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\",\
+#              \"username\": \"{{ item.user}}\", \"password\":\"{{item.pass}}\", \"port\": \"{5984\",\
+#              \"remote_node\": \"{{ansible_default_ipv4['address']}}\", \"node_count\": \"3\",\
+#              \"remote_current_user\":\"{{ item.user }}\", \"remote_current_password\":\"{{ item.pass }}\"}"
+#     headers:
+#       Content-Type: "application/json"
+#   loop: "{{ couchdb }}"
+
+# - name: setup couchdb cluster | step 2
+#   become: yes
+#   uri:
+#     url: http://{{ groups['masternode'][0] }}:5984/_cluster_setup
+#     status_code: 201
+#     method: POST
+#     user: "{{ item.user}}"
+#     password:  "{{ item.pass }}"
+#     force_basic_auth: yes
+#     return_content: yes
+#     body_format: json
+#     body: "{\"action\": \"add_node\", \"host\":\"{{ansible_default_ipv4['address']}}\",\
+#              \"port\": \"5984\", \"username\": \"{{item.user}}\", \"password\":\"{{ item.pass}}\"}"
+#     headers:
+#       Content-Type: "application/json"
+#   loop: "{{ couchdb }}"
+
+# - name: setup couchdb cluster | step 2.5
+#   become: yes
+#   uri:
+#     url: http://{{ groups['masternode'][0] }}:5984/
+#     status_code: 200,201,409
+#     method: GET
+#     user: "{{ item.user }}"
+#     password:  "{{ item.pass }}"
+#     force_basic_auth: yes
+#     return_content: yes
+#   loop: '{{couchdb}}'
+
+
+# - name: steup couchdb cluster | step 3 -- finish
+#   become: yes
+#   uri:
+#     url: http://{{ groups['masternode'][0] }}:5984/_cluster_setup
+#     status_code: 201
+#     method: POST
+#     user: "admin"
+#     password:  "admin"
+#     force_basic_auth: yes
+#     return_content: yes
+#     body_format: json
+#     body: "{\"action\": \"finish_cluster\"}"
+#     headers:
+#       Content-Type: "application/json"
