@@ -17,4 +17,5 @@ def couchdb_get_all_city():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=80, debug=False)  # in local plz use test service
+    # app.run() # test mode
