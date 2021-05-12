@@ -1,6 +1,5 @@
 from flask import Flask
-from backend import couchdbUtils
-from backend import couchdbView
+import couchdbUtils
 import couchdb
 
 app = Flask(__name__)
