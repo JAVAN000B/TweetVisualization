@@ -17,6 +17,7 @@ for i in range(len(raw_pop_lst)):
     median_age = raw_pop_lst[i]['estmtd_rsdnt_ppltn_smmry_sttstcs_30_jne_mdn_age_prsns_yrs']
 
     age_proportion = {}
+
     age_proportion['0-9 years old'] = raw_pop_lst[i]["estimated_resident_population_persons_30_june_0_4_years_pc"]+\
                                       raw_pop_lst[i]["estimated_resident_population_persons_30_june_5_9_years_pc"]
     age_proportion['10-19 years old'] = raw_pop_lst[i]["estimated_resident_population_persons_30_june_10_14_years_pc"] + \
