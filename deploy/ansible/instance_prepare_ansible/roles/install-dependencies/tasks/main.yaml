@@ -10,7 +10,7 @@
 - name: install_dependency
   become: yes
   apt:
-    name: ['vim','git']
+    name: ['vim','git', 'python3-pip']
     state: latest
 
 # - name: touch_text

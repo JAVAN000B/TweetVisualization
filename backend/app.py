@@ -1,4 +1,6 @@
 from flask import Flask
+import couchdbUtils
+import couchdb
 
 app = Flask(__name__)
 
@@ -7,10 +9,13 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!'
 
-@app.route('/getTweet/')
-def get_tweet():
-    return None
+
+@app.route('/couchdb/view/')
+def couchdb_get_all_city():
+    jsonRes = couchdbUtils.get_view('tweet_loc', 1)
+    return jsonRes
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=80, debug=False)  # in local plz use test service
+    # app.run() # test mode
