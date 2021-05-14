@@ -1,3 +1,4 @@
+import couchdb
 import tweepy
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
@@ -14,16 +15,23 @@ city_locations = {
 
 city = 'Melbourne'
 
+couch = couchdb.Server("http://admin:admin@172.26.134.75:5984")
+if "tweet" in couch:
+    db = couch["tweet"]
+else:
+    db = couch.create("tweet")
+
+
 with open('words', 'r') as rf:
     words = rf.readlines()
     for i in range(len(words)-1):
         words[i] = words[i][:-1].strip()
     words = set(words)
 
+
 class StdOutListener(StreamListener):
     def __init__(self):
-        with open(f'stream_{city}.json', 'w', encoding='utf-8', newline='') as wf:
-            wf.write('[\n')
+        pass
 
     def on_data(self, data):
         print(data)
@@ -45,10 +53,7 @@ class StdOutListener(StreamListener):
                 break
 
         handle_data = {'content':content, 'date':date, 'place':place, 'coordinates':coordinates, 'hashtags':hashtags, 'flag':flag, 'zanghua':zanghua}
-        with open(f'stream_{city}.json', 'a', encoding='utf-8', newline='') as wf:
-                wf.write('\t')
-                wf.write(json.dumps(handle_data))
-                wf.write(',\n')
+        db.save(handle_data)
         return True
 
     def on_error(self, status):
