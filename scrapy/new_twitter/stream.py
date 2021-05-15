@@ -1,10 +1,11 @@
 import datetime
 import json
 import time
-import re
+
+import processing
 
 import couchdb
-import preprocessor as pp
+import emojis
 from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener
@@ -33,37 +34,6 @@ with open('words', 'r') as rf:
     words = set(words)
 
 
-def get_state_place(place_fullname: str):
-    place_list = place_fullname.split(', ')
-    return place_list[0], place_list[1]
-
-
-def get_hashtag(hashtag_dict_list: list):
-    hashtags = []
-    for hashtag_dict in hashtag_dict_list:
-        hashtag_list = list(hashtag_dict.keys())
-        for hashtag in hashtag_list:
-            hashtags.append(hashtag)
-    return hashtags
-
-
-def get_zanghua(content: str):
-    zanghua = []
-    flag = 0
-    for one_word in content.split(' '):
-        if one_word in words:
-            flag = 1
-            zanghua.append(one_word)
-    return flag, zanghua
-
-
-def get_emoji(content: str):
-    temp1 = pp.clean(content)
-    temp2 = re.sub('[a-zA-Z]', '', temp1)
-    emojis = temp2.split()
-    return emojis, 1 if len(emojis) > 0 else 0
-
-
 class StdOutListener(StreamListener):
     def __init__(self):
         pass
@@ -71,29 +41,7 @@ class StdOutListener(StreamListener):
     def on_data(self, data):
         print(data)
         data = json.loads(data)
-        content = data['text']
-        # date = data['created_at'].strftime('%Y-%m-%d %H:%M:%S')
-        id = data["id_str"]
-        date = str(datetime.datetime.strptime(
-            data['created_at'], '%a %b %d %H:%M:%S +0000 %Y').replace(tzinfo=datetime.timezone.utc))
-        place = data['place']['full_name']
-        coordinates = str(data['place']['bounding_box']['coordinates'])
-        hashtags = data['entities']['hashtags']
-
-        city, state = get_state_place(place)
-        hashtags_list = get_hashtag(hashtags)
-        flag_zanghua, zanghua = get_zanghua(content)
-        emojis, flag_emoji = get_emoji(content)
-        # flag = 0
-        # zanghua = []
-        # for one_word in content.split(' '):
-        #     if one_word in words:
-        #         flag = 1
-        #         zanghua.append(one_word)
-
-        handle_data = {'_id': id, 'content': content, 'date': date, 'place': place, 'city': city, 'state': state,
-                       'coordinates': coordinates, 'hashtags': hashtags_list, 'flag_zanghua': flag_zanghua,
-                       'zanghua': zanghua, 'flag_emoji': flag_emoji, 'emojis': emojis}
+        handle_data = processing.process_tweet(data)
         db.save(handle_data)
         return True
 
@@ -129,21 +77,14 @@ class TwitterStreamer:
 #####################################################################################
 if __name__ == "__main__":
     # Twitter API Credentials
-    consumer_key = "Sfpku4OPfTmG6zHqjZurroJH7"  # write consumer key here
+    consumer_key = "LKEonopctBiVQrh9N56KE0W3j"  # write consumer key here
     # write consumer secret here
-    consumer_secret = "DWrBRxYuFYGqeh5Vy7HZdkRL4WFskeTCaxvlzYjbvfgv1EFvDL"
+    consumer_secret = "w7LfofSx1KMqLRurobanTeewbEfYnO7u8qdyHiwRvAnmKMJryt"
     # write access_token here
-    access_token = "1385175482149208068-BBDqWpVlIzwB6njWAKCebzkqkOakbX"
+    access_token = "1385175482149208068-WNGCDc6JIggZoQ9xHOvNWiilBbCcCe"
     # write access token secret here
-    access_token_secret = "uX7uaR9vjIzO6CtXixf4ZqXoFmnqHoTFN3Eg1mbSNQ1pQ"
-
-    # Search Area: Australia
-    # locations = city_locations['Darwin']
-
-    # Keywords for Search in Twitter: A list of strings
-    # keywords=['study','education','homeschooling','school','homework','assignment']
+    access_token_secret = "OnGBI2izAvNYXWzxhtRbVfnyWowITo214qzyjj8KOjNAi"
 
     twitter_streamer = TwitterStreamer("AU")
 
-    # (Server, Database Name, Keywords)
     twitter_streamer.stream_tweets()
