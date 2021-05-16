@@ -1,5 +1,6 @@
 import json
 import datetime
+import re
 
 import emojis
 
@@ -32,9 +33,7 @@ def get_state_place(place_fullname: str, place_type: str):
 def get_hashtag(hashtag_dict_list: list):
     hashtags = set()
     for hashtag_dict in hashtag_dict_list:
-        hashtag_list = list(hashtag_dict.keys())
-        for hashtag in hashtag_list:
-            hashtags.add(hashtag)
+        hashtags.add(hashtag_dict['text'])
     return list(hashtags)
 
 
@@ -59,8 +58,14 @@ def process_tweet(data):
     except:
         content = data['text']
     id = data["id_str"]
-    date = str(datetime.datetime.strptime(
+    full_date = str(datetime.datetime.strptime(
         data['created_at'], '%a %b %d %H:%M:%S +0000 %Y').replace(tzinfo=datetime.timezone.utc))
+    date_list = re.split('-| |:', full_date)
+    year = int(date_list[0])
+    mounth = int(date_list[1])
+    date = int(date_list[2])
+    hour = int(date_list[3])
+    minute = int(date_list[4])
     place_type = data['place']['place_type']
     place = data['place']['full_name']
     coordinates = str(data['place']['bounding_box']['coordinates'])
@@ -71,8 +76,9 @@ def process_tweet(data):
     flag_zanghua, zanghua = get_zanghua(content)
     emojis, flag_emoji = get_emoji(content)
 
-    handle_data = {'_id': id, 'content': content, 'date': date, 'place': place, 'city': city, 'state': state,
+    handle_data = {'_id': id, 'content': content, 'full_date': full_date, 'year': year, 'month': mounth, 'date': date,
+                   'hour': hour, 'minute': minute, 'place': place, 'city': city, 'state': state,
                    'country': country, 'coordinates': coordinates, 'hashtags': hashtags_list,
-                   'flag_zanghua': flag_zanghua, 'zanghua': zanghua, 'flag_emoji': flag_emoji, 'emojis': emojis}
+                   'flag_vulgar': flag_zanghua, 'vulgar_word': zanghua, 'flag_emoji': flag_emoji, 'emojis': emojis}
     return handle_data
 

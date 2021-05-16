@@ -22,10 +22,10 @@ city_locations = {
 
 couch = couchdb.Server("http://admin:admin@172.26.134.75:5984")
 
-if "tweet2" in couch:
-    db = couch["tweet2"]
+if "tweet_latest" in couch:
+    db = couch["tweet_latest"]
 else:
-    db = couch.create("tweet2")
+    db = couch.create("tweet_latest")
 
 with open('words', 'r') as rf:
     words = rf.readlines()
@@ -77,13 +77,13 @@ class TwitterStreamer:
 #####################################################################################
 if __name__ == "__main__":
     # Twitter API Credentials
-    consumer_key = "LKEonopctBiVQrh9N56KE0W3j"  # write consumer key here
+    consumer_key = "kUx4tq1D61dsPoTiJ9mO5A3OR"  # write consumer key here
     # write consumer secret here
-    consumer_secret = "w7LfofSx1KMqLRurobanTeewbEfYnO7u8qdyHiwRvAnmKMJryt"
+    consumer_secret = "qHN1ckce9d9Oc197S5vOnkjCmIuUiCcbtYcbemiQsBMVwOV1bn"
     # write access_token here
-    access_token = "1385175482149208068-WNGCDc6JIggZoQ9xHOvNWiilBbCcCe"
+    access_token = "1385175482149208068-XZk18dDjLWJHnmetkssILlcGCsNhP9"
     # write access token secret here
-    access_token_secret = "OnGBI2izAvNYXWzxhtRbVfnyWowITo214qzyjj8KOjNAi"
+    access_token_secret = "bIR7kU56QLNoPWHDOy03GCijv6BdvQgwrN2jXAz8CtIJO"
 
     twitter_streamer = TwitterStreamer("AU")
 

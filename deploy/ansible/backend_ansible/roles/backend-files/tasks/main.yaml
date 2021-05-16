@@ -1,27 +1,27 @@
 ---
-# - name: create backend files directory
-#   become: yes
-#   file:
-#     path: /home/ubuntu/projects
-#     state: directory
+ - name: create backend files directory
+   become: yes
+   file:
+     path: /home/ubuntu/projects
+     state: directory
 
-# - name: create backend-logs directory
-#   become: yes
-#   file:
-#     path: /home/ubuntu/data/backenddocker
-#     state: directory
+ - name: create backend-logs directory
+   become: yes
+   file:
+     path: /home/ubuntu/data/backenddocker
+     state: directory
 
-# - name: copy backend files to instance
-#   become: yes
-#   copy:
-#     src: ../../../../../backend
-#     dest: /home/ubuntu/projects
+ - name: copy backend files to instance
+   become: yes
+   copy:
+     src: ../../../../../backend
+     dest: /home/ubuntu/projects
 
-# - name: create docker image
-#   become: yes
-#   shell: sudo docker build . -t=backend:latest
-#   args:
-#     chdir: /home/ubuntu/projects/backend
+ - name: create docker image
+   become: yes
+   shell: sudo docker build . -t=backend:latest
+   args:
+     chdir: /home/ubuntu/projects/backend
 
 - name: docker-compose up!
   become:
