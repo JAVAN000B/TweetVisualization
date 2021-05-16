@@ -17,11 +17,12 @@ def hello_world():
 @app.route('/couchdb/view/num_tweet_city/<city_name>')
 def get_num_tweet_city(city_name):
     if city_name != "all":
-        jsonRes = couchdbUtils.get_view('&key="{}"'.format(city_name),'tweet2','tweet2','num_tweet_city',1)
+        jsonRes = couchdbUtils.get_view('&key="{}"'.format(city_name), 'tweet2', 'tweet2', 'num_tweet_city', 1)
         return jsonRes
     else:
-        jsonRes = couchdbUtils.get_view("",'tweet2','tweet2','num_tweet_city',1)
+        jsonRes = couchdbUtils.get_view("", 'tweet2', 'tweet2', 'num_tweet_city', 1)
         return jsonRes
+
 
 # @app.route('/couchdb/view/num_tweet_state')
 # def get_num_tweet_state():
@@ -29,5 +30,5 @@ def get_num_tweet_city(city_name):
 #     return jsonRes
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=False)  # in local plz use test service
-    # app.run() # test mode
+    # app.run(host='0.0.0.0', port=80, debug=False)  # in local plz use test service
+    app.run()  # test mode
