@@ -36,17 +36,78 @@ def get_num_tweet_state():
     return json_res
 
 
-# bug
-@app.route('/couchdb/view/hashtag_city/<startkey>/<endkey>')
-def get_hashtag_city(startkey, endkey):
+# hashtag per city
+@app.route('/couchdb/view/hashtag_city/<startkey>-<endkey>/<group_level>')
+def get_hashtag_city(startkey, endkey,group_level):
     if startkey and endkey:
         jsonRes = couchdbUtils.get_view('&startkey={}&endkey={}'.format(startkey, endkey), 'tweet_latest',
-                                        'tweet_latest', 'hashtag_city', 5)
+                                        'tweet_latest', 'hashtag_city', group_level)
         return jsonRes
     else:
-        jsonRes = couchdbUtils.get_view("", 'tweet_latest', 'tweet_latest', 'hashtag_city', 1)
+        #jsonRes = couchdbUtils.get_view("", 'tweet_latest', 'tweet_latest', 'hashtag_city', 1)
+        jsonRes = couchdbUtils.get_view("", 'tweet_latest',
+                                        'tweet_latest', 'hashtag_city', group_level)
         return jsonRes
 
+# hashtag per state
+@app.route('/couchdb/view/hashtag_state/<startkey>-<endkey>/<group_level>')
+def get_hashtag_state(startkey, endkey,group_level):
+    if startkey and endkey:
+        jsonRes = couchdbUtils.get_view('&startkey={}&endkey={}'.format(startkey, endkey), 'tweet_latest',
+                                        'tweet_latest', 'hashtag_state', group_level)
+        return jsonRes
+    else:
+        jsonRes = couchdbUtils.get_view("", 'tweet_latest',
+                                        'tweet_latest', 'hashtag_state', group_level)
+        return jsonRes
+
+# vulgar word per city
+@app.route('/couchdb/view/vulgar_word_city/<startkey>-<endkey>/<group_level>')
+def get_vulgar_word_city(startkey, endkey,group_level):
+    if startkey and endkey:
+        jsonRes = couchdbUtils.get_view('&startkey={}&endkey={}'.format(startkey, endkey), 'tweet_latest',
+                                        'tweet_latest', 'vulgar_word_city', group_level)
+        return jsonRes
+    else:
+        jsonRes = couchdbUtils.get_view("", 'tweet_latest',
+                                        'tweet_latest', 'vuglar_word_city', group_level)
+        return jsonRes
+
+# vulgar word per state
+@app.route('/couchdb/view/vulgar_word_state/<startkey>-<endkey>/<group_level>')
+def get_vulgar_word_state(startkey, endkey,group_level):
+    if startkey and endkey:
+        jsonRes = couchdbUtils.get_view('&startkey={}&endkey={}'.format(startkey, endkey), 'tweet_latest',
+                                        'tweet_latest', 'vulgar_word_state', group_level)
+        return jsonRes
+    else:
+        jsonRes = couchdbUtils.get_view("", 'tweet_latest',
+                                        'tweet_latest', 'vuglar_word_state', group_level)
+        return jsonRes
+
+# emojis per city
+@app.route('/couchdb/view/emojis_city/<startkey>-<endkey>/<group_level>')
+def get_emojis_city(startkey, endkey,group_level):
+    if startkey and endkey:
+        jsonRes = couchdbUtils.get_view('&startkey={}&endkey={}'.format(startkey, endkey), 'tweet_latest',
+                                        'tweet_latest', 'emojis_city', group_level)
+        return jsonRes
+    else:
+        jsonRes = couchdbUtils.get_view("", 'tweet_latest',
+                                        'tweet_latest', 'emojis_city', group_level)
+        return jsonRes
+
+# emojis per state
+@app.route('/couchdb/view/emojis_state/<startkey>-<endkey>/<group_level>')
+def get_emojis_state(startkey, endkey,group_level):
+    if startkey and endkey:
+        jsonRes = couchdbUtils.get_view('&startkey={}&endkey={}'.format(startkey, endkey), 'tweet_latest',
+                                        'tweet_latest', 'emojis_state', group_level)
+        return jsonRes
+    else:
+        jsonRes = couchdbUtils.get_view("", 'tweet_latest',
+                                        'tweet_latest', 'emojis_state', group_level)
+        return jsonRes
 
 # Utils Methods
 def request_parse(req_data):
