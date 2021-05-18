@@ -1,0 +1,24 @@
+---
+ - name: create crawler files directory
+   become: yes
+   file:
+     path: /home/ubuntu/scrapy
+     state: directory
+
+ - name: copy crawler files to instance
+   become: yes
+   copy:
+     src: ../../../../../scrapy/new_twitter/
+     dest: /home/ubuntu/scrapy
+
+ - name: create docker image
+   become: yes
+   shell: sudo docker build . -t=crawler:latest
+   args:
+     chdir: /home/ubuntu/scrapy
+
+ - name: docker-compose up!
+   become:
+   shell: docker-compose up -d
+   args:
+     chdir: /home/ubuntu/scrapy

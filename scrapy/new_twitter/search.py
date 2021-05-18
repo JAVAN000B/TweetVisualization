@@ -5,13 +5,13 @@ import json
 import processing
 
 # Twitter API Credentials
-consumer_key = "LKEonopctBiVQrh9N56KE0W3j"  # write consumer key here
+consumer_key = "kUx4tq1D61dsPoTiJ9mO5A3OR"  # write consumer key here
 # write consumer secret here
-consumer_secret = "w7LfofSx1KMqLRurobanTeewbEfYnO7u8qdyHiwRvAnmKMJryt"
+consumer_secret = "qHN1ckce9d9Oc197S5vOnkjCmIuUiCcbtYcbemiQsBMVwOV1bn"
 # write access_token here
-access_token = "1385175482149208068-WNGCDc6JIggZoQ9xHOvNWiilBbCcCe"
+access_token = "1385175482149208068-XZk18dDjLWJHnmetkssILlcGCsNhP9"
 # write access token secret here
-access_token_secret = "OnGBI2izAvNYXWzxhtRbVfnyWowITo214qzyjj8KOjNAi"
+access_token_secret = "bIR7kU56QLNoPWHDOy03GCijv6BdvQgwrN2jXAz8CtIJO"
 
 auth = tweepy.auth.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -70,10 +70,10 @@ for tweet in tweepy.Cursor(api.search, q=f"until:{str_today} since:{str_before} 
     # handle_data = {'content': content, 'date': date, 'place': place,
     #                'coordinates': coordinates, 'hashtags': hashtags, 'flag': flag, 'zanghua': zanghua}
     # print(date, place, hashtags, flag, zanghua)
-    with open(f'{CITY}.json', 'a', encoding='utf-8', newline='') as wf:
-        if data['place'] and data['place']['country'] == 'Australia':
-            print(data)
-            handle_data = processing.process_tweet(data)
-            wf.write('\t')
-            wf.write(json.dumps(handle_data))
-            wf.write(',\n')
+    if data['place'] and data['place']['country'] == 'Australia':
+        print(data)
+        handle_data = processing.process_tweet(data)
+        with open(f'{CITY}.json', 'a', encoding='utf-8', newline='') as wf:
+                wf.write('\t')
+                wf.write(json.dumps(handle_data))
+                wf.write(',\n')
