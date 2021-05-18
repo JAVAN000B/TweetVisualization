@@ -39,10 +39,10 @@ def get_view(condition,db_name,designDoc_name,view_name, group_level):
 
 def initial_couchdb(db_name):
     # 'http://admin:admin@172.26.130.123:5984'
-    couch = couchdb.Server(URL.format(DB_USER,
-                                      DB_PASWD,
-                                      '172.26.134.75',
-                                      DB_PORT))
+    couch = couchdb.Server(URL.format(username=DB_USER,
+                                      password=DB_PASWD,
+                                      host=connect_to(),
+                                      port=DB_PORT))
     if db_name in couch:
         db = couch[db_name]
     else:
