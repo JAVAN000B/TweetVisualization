@@ -66,19 +66,22 @@ def process_tweet(data):
     date = int(date_list[2])
     hour = int(date_list[3])
     minute = int(date_list[4])
-    place_type = data['place']['place_type']
-    place = data['place']['full_name']
-    coordinates = str(data['place']['bounding_box']['coordinates'])
-    hashtags = data['entities']['hashtags']
+    try:
+        place_type = data['place']['place_type']
+        place = data['place']['full_name']
+        coordinates = str(data['place']['bounding_box']['coordinates'])
+        hashtags = data['entities']['hashtags']
 
-    city, state, country = get_state_place(place, place_type)
-    hashtags_list = get_hashtag(hashtags)
-    flag_zanghua, zanghua = get_zanghua(content)
-    emojis, flag_emoji = get_emoji(content)
+        city, state, country = get_state_place(place, place_type)
+        hashtags_list = get_hashtag(hashtags)
+        flag_zanghua, zanghua = get_zanghua(content)
+        emojis, flag_emoji = get_emoji(content)
 
-    handle_data = {'_id': id, 'content': content, 'full_date': full_date, 'year': year, 'month': mounth, 'date': date,
-                   'hour': hour, 'minute': minute, 'place': place, 'city': city, 'state': state,
-                   'country': country, 'coordinates': coordinates, 'hashtags': hashtags_list,
-                   'flag_vulgar': flag_zanghua, 'vulgar_word': zanghua, 'flag_emoji': flag_emoji, 'emojis': emojis}
+        handle_data = {'_id': id, 'content': content, 'full_date': full_date, 'year': year, 'month': mounth,
+                       'date': date,
+                       'hour': hour, 'minute': minute, 'place': place, 'city': city, 'state': state,
+                       'country': country, 'coordinates': coordinates, 'hashtags': hashtags_list,
+                       'flag_vulgar': flag_zanghua, 'vulgar_word': zanghua, 'flag_emoji': flag_emoji, 'emojis': emojis}
+    except:
+        handle_data = None
     return handle_data
-

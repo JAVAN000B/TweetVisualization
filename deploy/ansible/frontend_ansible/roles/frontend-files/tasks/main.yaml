@@ -1,0 +1,12 @@
+---
+- name: create frontend files directory
+  become: yes
+  file:
+    path: /home/ubuntu/frontend
+    state: directory
+
+- name: copy frontend files to instance
+  become: yes
+  copy:
+    src: ../../../../../../vuedemo/dist
+    dest: /home/ubuntu/frontend

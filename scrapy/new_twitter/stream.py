@@ -1,11 +1,8 @@
-import datetime
 import json
 import time
 
-import processing
-
 import couchdb
-import emojis
+import processing
 from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener
@@ -42,7 +39,8 @@ class StdOutListener(StreamListener):
         print(data)
         data = json.loads(data)
         handle_data = processing.process_tweet(data)
-        db.save(handle_data)
+        if handle_data is not None:
+            db.save(handle_data)
         return True
 
     def on_error(self, status):
@@ -77,13 +75,13 @@ class TwitterStreamer:
 #####################################################################################
 if __name__ == "__main__":
     # Twitter API Credentials
-    consumer_key = "kUx4tq1D61dsPoTiJ9mO5A3OR"  # write consumer key here
+    consumer_key = "8JFyn5v4JLffM3WAv5SuyKe1G"  # write consumer key here
     # write consumer secret here
-    consumer_secret = "qHN1ckce9d9Oc197S5vOnkjCmIuUiCcbtYcbemiQsBMVwOV1bn"
+    consumer_secret = "jd0GrvC0OpbgodEpFznDAkQBBdo5a89RW0rEaBBGrjyLH6Qh86"
     # write access_token here
-    access_token = "1385175482149208068-XZk18dDjLWJHnmetkssILlcGCsNhP9"
+    access_token = "1260926366020562946-qHMU7gnyHKZnJazluZ2jvRzklSANIe"
     # write access token secret here
-    access_token_secret = "bIR7kU56QLNoPWHDOy03GCijv6BdvQgwrN2jXAz8CtIJO"
+    access_token_secret = "QkWSddaK2STf4E3a2xr1i5ync8rPYyYJRcex1RTBDsjAe"
 
     twitter_streamer = TwitterStreamer("AU")
 
