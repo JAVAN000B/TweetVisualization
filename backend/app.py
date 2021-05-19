@@ -3,7 +3,7 @@ from collections import defaultdict
 
 from flask import Flask, request
 
-from backend import couchdbUtils
+import couchdbUtils
 
 app = Flask(__name__)
 

@@ -23,9 +23,9 @@
    args:
      chdir: /home/ubuntu/projects/backend
 
-- name: docker-compose up!
-  become:
-  shell: docker-compose up -d
-  args:
-    chdir: /home/ubuntu/projects/backend
+ - name: docker-compose up!
+   become:
+   shell: docker-compose up -d
+   args:
+     chdir: /home/ubuntu/projects/backend
 
