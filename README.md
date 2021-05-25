@@ -1,2 +1,2 @@
-# Cov19TweetVisualization
-cov19TweetVisualization from team 29
+#TweetVisualization
+TweetVisualization from team 29
