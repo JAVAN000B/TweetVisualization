@@ -3,15 +3,16 @@ import csv
 import datetime
 import json
 import processing
+import settings
 
 # Twitter API Credentials
-consumer_key = "kUx4tq1D61dsPoTiJ9mO5A3OR"  # write consumer key here
+consumer_key = settings.consumer_key  # write consumer key here
 # write consumer secret here
-consumer_secret = "qHN1ckce9d9Oc197S5vOnkjCmIuUiCcbtYcbemiQsBMVwOV1bn"
+consumer_secret = settings.consumer_secrect
 # write access_token here
-access_token = "1385175482149208068-XZk18dDjLWJHnmetkssILlcGCsNhP9"
+access_token = settings.access_token
 # write access token secret here
-access_token_secret = "bIR7kU56QLNoPWHDOy03GCijv6BdvQgwrN2jXAz8CtIJO"
+access_token_secret = settings.access_token_secret
 
 auth = tweepy.auth.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -46,30 +47,7 @@ for tweet in tweepy.Cursor(api.search, q=f"until:{str_today} since:{str_before} 
                            geocode=f"{city_locations[CITY][1]},{city_locations[CITY][0]},2350km").items():
     # print([tweet.created_at, tweet.text.encode('utf-8'), tweet.user.id, tweet.geo])
     data = tweet._json
-    # content = data['text']
-    # # date = data['created_at'].strftime('%Y-%m-%d %H:%M:%S')
-    # date = str(datetime.datetime.strptime(
-    #     data['created_at'], '%a %b %d %H:%M:%S +0000 %Y').replace(tzinfo=datetime.timezone.utc))
-    #
-    # try:
-    #     place = data['place']['full_name']
-    # except Exception as e:
-    #     # print(e)
-    #     continue
-    # coordinates = str(data['place']['bounding_box']['coordinates'])
-    # hashtags = [item['text'] for item in data['entities']['hashtags']]
-    #
-    # flag = 0
-    # zanghua = ''
-    # for one_word in content.split(' '):
-    #     if one_word in words:
-    #         flag = 1
-    #         zanghua = one_word
-    #         break
-    #
-    # handle_data = {'content': content, 'date': date, 'place': place,
-    #                'coordinates': coordinates, 'hashtags': hashtags, 'flag': flag, 'zanghua': zanghua}
-    # print(date, place, hashtags, flag, zanghua)
+
     if data['place'] and data['place']['country'] == 'Australia':
         print(data)
         handle_data = processing.process_tweet(data)

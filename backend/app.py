@@ -2,15 +2,42 @@ import json
 from collections import defaultdict
 
 from flask import Flask, request
+from flask_cors import *
 
 import couchdbUtils
 
 app = Flask(__name__)
+CORS(app, supports_credentials=True)
 
 
 @app.route('/')
 def hello_world():
     return 'Hello World!'
+
+
+# emojis per state
+@app.route('/couchdb/view/total_time/', methods=['GET', 'POST'])
+def get_total_time():
+    data = request_parse(request)
+    start_time = data.get("start_time")
+    end_time = data.get("end_time")
+    start_time_split = start_time.split("-")
+    end_time_split = end_time.split("-")
+    start_year = start_time_split[0] if start_time_split[0] != "0" else "null"
+    start_month = start_time_split[1] if start_time_split[1] != "0" else "null"
+    start_date = start_time_split[2] if start_time_split[2] != "0" else "null"
+    end_year = end_time_split[0] if end_time_split[0] != "0" else "{}"
+    end_month = end_time_split[1] if end_time_split[1] != "0" else "{}"
+    end_date = end_time_split[2] if end_time_split[2] != "0" else "{}"
+    condition = "&startkey=[{},{},{}".format(start_year, start_month, start_date) \
+                + ",null]" + "&endkey=[{},{},{}".format(end_year, end_month, end_date) + ",{}]"
+    group_level = 4
+    if not condition or not group_level:
+        return {500: "bad request"}
+    jsonRes = couchdbUtils.get_view(condition, 'tweet_latest',
+                                    'tweet_latest', 'num_tweet_state_time', group_level)
+    after = process_resDict(jsonRes, group_level)
+    return after
 
 
 @app.route('/couchdb/view/num_tweet_city/', methods=['GET', 'POST'])
@@ -248,8 +275,8 @@ def get_condition_grouplevel(data):
             return None, None
     condition = "&startkey=[{},{},{},{}".format(place_name_start, start_year, start_month, start_date) \
                 + ",null]" + "&endkey=[{},{},{},{}".format(place_name_end, end_year, end_month, end_date) + ",{}]"
-    # print(condition)
-    # print(group_level)
+    print(condition)
+    print(group_level)
     return condition, group_level
 
 

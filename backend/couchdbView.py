@@ -35,6 +35,14 @@ map_reduce_view_tweet_latest={
     "emojis_state": {
       "reduce": "_count",
       "map": "function (doc) {\n   if (doc.emojis.lengths != 0){\n      for (var i in doc.emojis){\n        emit([doc.state,doc.year,doc.month,doc.date,doc.emojis[i]],1);\n      }\n    }\n}"
+    },
+    "num_tweet_state_time": {
+      "reduce": "_count",
+      "map": "function (doc) {\n  emit([doc.year,doc.month,doc.date,doc.state],1);\n}"
+    },
+    "num_tweet_city_time": {
+      "reduce": "_count",
+      "map": "function (doc) {\n  emit([doc.year,doc.month,doc.date,doc.city],1);\n}"
     }
   },
   "language": "javascript"
@@ -56,6 +64,7 @@ map_reduce_view_tweet_latest={
 #         "language": "javascript"
 #     }
 #     db.save(map_reduce_view_count)
+
 
 
 db = couchdbUtils.initial_couchdb("tweet_latest")

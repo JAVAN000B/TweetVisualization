@@ -38,16 +38,16 @@
   roles:
     - couch-cluster
 
-# - hosts: masternode
-#   vars:
-#     ansible_python_interpreter: /usr/bin/python3
-#     ansible_user: ubuntu
-#     ansible_ssh_private_key_file: ../../empty.pem
-#     ansible_ssh_common_args: '-o StrictHostKeyChecking=no' # make sure ssh will not fail
+- hosts: masternode
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: ../../empty.pem
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no' # make sure ssh will not fail
 
-#   vars_files:
-#   - host_vars/couchdb_vars.yaml
-#   gather_facts: true
+  vars_files:
+  - host_vars/couchdb_vars.yaml
+  gather_facts: true
 
-#   roles:
-#     - create-test-db
+  roles:
+    - couch-cluster-create

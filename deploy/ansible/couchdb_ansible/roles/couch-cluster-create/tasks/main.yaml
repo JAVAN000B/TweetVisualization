@@ -1,0 +1,12 @@
+---
+
+- name: create cluster curl3
+  shell: curl -XGET "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/"
+  loop: '{{couchdb}}'
+
+- name: create cluster curl4
+  shell: >
+    curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
+    --header "Content-Type: application/json" --data "{\"action\": \"finish_cluster\"}"
+
+  loop: '{{couchdb}}'

@@ -1,6 +1,8 @@
 import json
 import time
 
+import settings
+
 import couchdb
 import processing
 from tweepy import OAuthHandler
@@ -75,13 +77,13 @@ class TwitterStreamer:
 #####################################################################################
 if __name__ == "__main__":
     # Twitter API Credentials
-    consumer_key = "8JFyn5v4JLffM3WAv5SuyKe1G"  # write consumer key here
+    consumer_key = settings.consumer_key  # write consumer key here
     # write consumer secret here
-    consumer_secret = "jd0GrvC0OpbgodEpFznDAkQBBdo5a89RW0rEaBBGrjyLH6Qh86"
+    consumer_secret = settings.consumer_secret
     # write access_token here
-    access_token = "1260926366020562946-qHMU7gnyHKZnJazluZ2jvRzklSANIe"
+    access_token = settings.access_token
     # write access token secret here
-    access_token_secret = "QkWSddaK2STf4E3a2xr1i5ync8rPYyYJRcex1RTBDsjAe"
+    access_token_secret = settings.access_token_secret
 
     twitter_streamer = TwitterStreamer("AU")
 

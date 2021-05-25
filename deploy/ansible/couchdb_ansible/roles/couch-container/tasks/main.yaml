@@ -1,7 +1,7 @@
 ---
-# - name: pull coudb image
-#   shell: docker pull ibmcom/couchdb3:'{{item.version}}'
-#   loop: '{{ couchdb }}'
+- name: pull coudb image
+  shell: docker pull ibmcom/couchdb3:'{{item.version}}'
+  loop: '{{ couchdb }}'
 
 # - name: export couchdb params
 #   become: yes

@@ -2,11 +2,36 @@
 - name: create frontend files directory
   become: yes
   file:
-    path: /home/ubuntu/frontend
+    path: /home/ubuntu/frontendDeploy
     state: directory
 
 - name: copy frontend files to instance
   become: yes
   copy:
-    src: ../../../../../../vuedemo/dist
-    dest: /home/ubuntu/frontend
+    src: ../../../../../../frontend/dist
+    dest: /home/ubuntu/frontendDeploy
+
+- name: copy Dockerfile file to instance
+  become: yes
+  copy:
+    src: ../../../../../../frontend/Dockerfile
+    dest: /home/ubuntu/frontendDeploy
+
+
+- name: copy nginx conf file to instance
+  become: yes
+  copy:
+    src: ../../../../../../frontend/default.conf
+    dest: /home/ubuntu/frontendDeploy
+
+- name: create docker image
+  become: yes
+  shell: docker build -t vuenginxcontainer .
+  args:
+    chdir: /home/ubuntu/frontendDeploy
+
+- name: docker run
+  become: yes
+  shell: docker run -p 3001:80 -d --name vueApp vuenginxcontainer
+  args:
+    chdir: /home/ubuntu/frontendDeploy

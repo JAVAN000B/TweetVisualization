@@ -12,6 +12,7 @@ COPY requirements.txt requirements.txt
 COPY processing.py processing.py
 COPY search.py search.py
 COPY stream.py stream.py
+COPY settings.py settings.py
 COPY words words
 
 RUN pip install --upgrade pip
