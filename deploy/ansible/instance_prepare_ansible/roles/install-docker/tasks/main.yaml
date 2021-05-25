@@ -1,0 +1,51 @@
+---
+
+- name: curl docker install shell
+  become: yes
+  shell: curl -fsSL https://get.docker.com -o /home/ubuntu/data/get-docker.sh
+
+- name: sh install docker
+  become: yes
+  shell: sh /home/ubuntu/data/get-docker.sh
+
+- name: append user ubuntu to docker
+  become: yes
+  shell: usermod -aG docker ubuntu
+
+- name: install docker-compose
+  become: yes
+  apt:
+    name: ['docker-compose']
+    state: latest
+
+- name: add docker draemon proxy directory
+  become: yes
+  file:
+    path: /etc/systemd/system/docker.service.d
+    state: directory
+
+- name: copy proxy file to draemon proxy directory
+  become: yes
+  copy:
+    src: ../../../host_vars/http-proxy.conf
+    dest: "/etc/systemd/system/docker.service.d/"
+
+- name: add docker proxy directory
+  become: yes
+  file:
+    path: /home/ubuntu/.docker
+    state: directory
+
+- name: copy proxy file to docker proxy directory
+  become: yes
+  copy:
+    src: ../../../host_vars/config.json
+    dest: /home/ubuntu/.docker
+
+- name: flush draemon
+  become: yes
+  shell: systemctl daemon-reload
+
+- name: restar docker
+  become: yes
+  shell: systemctl restart docker

@@ -1,0 +1,56 @@
+# ! instance preference
+availability_zone: melbourne-qh2-uom
+# instance_network: qh2-uom-internal
+instance_flavor: uom.mse.2c9g
+instance_image: f8b79936-6616-4a22-b55d-0d0a1d27bceb
+instance_key_name: empty
+
+# ! volume
+volumes:
+  - vol_name: instance2-vol
+    vol_size: 64
+    device: /dev/vdb
+    mountpoint: /home/ubuntu/data/
+
+  - vol_name: instance3-vol
+    vol_size: 64
+    device: /dev/vdb
+    mountpoint: /home/ubuntu/data/
+
+  - vol_name: instance4-vol
+    vol_size: 64
+    device: /dev/vdb
+    mountpoint: /home/ubuntu/data/
+
+
+# ! security group
+security_groups:
+  - name: shi_hu_hu
+    description: "dei ci ci, e xin xin"
+    protocol: tcp
+    port_range_min: 22
+    port_range_max: 22
+    remote_ip_prefix: 0.0.0.0/0
+  - name: he_tui_tui_pei
+    description: "rang wo fang wen!"
+    protocol: tcp
+    port_range_min: 80
+    port_range_max: 80
+    remote_ip_prefix: 0.0.0.0/0
+
+# ! instance
+instances:
+  - name: instance2
+    security-groups: ['shi_hu_hu', 'he_tui_tui_pei']
+    volume_ids: '{ instance2_volumes|default([]) }'
+    volumes: [instance2-vol]
+
+  - name: instance3
+    security-groups: [ 'shi_hu_hu', 'he_tui_tui_pei' ]
+    volume_ids: '{ instance3_volumes|default([]) }'
+    volumes: [ instance3-vol ]
+
+  - name: instance4
+    security-groups: [ 'shi_hu_hu', 'he_tui_tui_pei' ]
+    volume_ids: '{ instance4_volumes|default([]) }'
+    volumes: [ instance4-vol ]

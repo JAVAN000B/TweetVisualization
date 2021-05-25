@@ -1,0 +1,1722 @@
+[
+    {
+        "Location": "Newport",
+        "Personal mean total income": 76149,
+        "Personal median total income": 52431
+    },
+    {
+        "Location": "Armadale",
+        "Personal mean total income": 89132,
+        "Personal median total income": 57236
+    },
+    {
+        "Location": "Collingwood",
+        "Personal mean total income": 63641,
+        "Personal median total income": 52814
+    },
+    {
+        "Location": "Brunswick",
+        "Personal mean total income": 60064,
+        "Personal median total income": 50251
+    },
+    {
+        "Location": "Epping",
+        "Personal mean total income": 69956,
+        "Personal median total income": 54988
+    },
+    {
+        "Location": "Belmont",
+        "Personal mean total income": 68436,
+        "Personal median total income": 52196
+    },
+    {
+        "Location": "Sunbury",
+        "Personal mean total income": 60103,
+        "Personal median total income": 51952
+    },
+    {
+        "Location": "Sunbury",
+        "Personal mean total income": 57341,
+        "Personal median total income": 51599
+    },
+    {
+        "Location": "Fairfield",
+        "Personal mean total income": 46647,
+        "Personal median total income": 42597
+    },
+    {
+        "Location": "Fitzroy",
+        "Personal mean total income": 69587,
+        "Personal median total income": 50746
+    },
+    {
+        "Location": "Taylors Lakes",
+        "Personal mean total income": 58472,
+        "Personal median total income": 49827
+    },
+    {
+        "Location": "Altona",
+        "Personal mean total income": 66293,
+        "Personal median total income": 57728
+    },
+    {
+        "Location": "Altona Meadows",
+        "Personal mean total income": 56021,
+        "Personal median total income": 51772
+    },
+    {
+        "Location": "South Yarra",
+        "Personal mean total income": 92112,
+        "Personal median total income": 59131
+    },
+    {
+        "Location": "Cheltenham",
+        "Personal mean total income": 72889,
+        "Personal median total income": 58030
+    },
+    {
+        "Location": "Chelsea Heights",
+        "Personal mean total income": 56901,
+        "Personal median total income": 51999
+    },
+    {
+        "Location": "Elsternwick",
+        "Personal mean total income": 79657,
+        "Personal median total income": 56999
+    },
+    {
+        "Location": "Hughesdale",
+        "Personal mean total income": 63022,
+        "Personal median total income": 52640
+    },
+    {
+        "Location": "Belmont",
+        "Personal mean total income": 51525,
+        "Personal median total income": 44745
+    },
+    {
+        "Location": "Geelong",
+        "Personal mean total income": 57519,
+        "Personal median total income": 47853
+    },
+    {
+        "Location": "Prahran",
+        "Personal mean total income": 71090,
+        "Personal median total income": 56542
+    },
+    {
+        "Location": "Geelong West",
+        "Personal mean total income": 57876,
+        "Personal median total income": 50094
+    },
+    {
+        "Location": "Grovedale",
+        "Personal mean total income": 52852,
+        "Personal median total income": 47184
+    },
+    {
+        "Location": "Leopold",
+        "Personal mean total income": 53288,
+        "Personal median total income": 47881
+    },
+    {
+        "Location": "North Geelong",
+        "Personal mean total income": 53558,
+        "Personal median total income": 46731
+    },
+    {
+        "Location": "Clifton Springs",
+        "Personal mean total income": 51971,
+        "Personal median total income": 45067
+    },
+    {
+        "Location": "Ocean Grove",
+        "Personal mean total income": 59737,
+        "Personal median total income": 48947
+    },
+    {
+        "Location": "Brunswick East",
+        "Personal mean total income": 61989,
+        "Personal median total income": 53914
+    },
+    {
+        "Location": "Brunswick West",
+        "Personal mean total income": 59772,
+        "Personal median total income": 50544
+    },
+    {
+        "Location": "Coburg",
+        "Personal mean total income": 59964,
+        "Personal median total income": 51520
+    },
+    {
+        "Location": "Pascoe Vale South",
+        "Personal mean total income": 65516,
+        "Personal median total income": 55485
+    },
+    {
+        "Location": "Alphington",
+        "Personal mean total income": 71035,
+        "Personal median total income": 57219
+    },
+    {
+        "Location": "Blackburn South",
+        "Personal mean total income": 62664,
+        "Personal median total income": 50225
+    },
+    {
+        "Location": "Northcote",
+        "Personal mean total income": 70519,
+        "Personal median total income": 57796
+    },
+    {
+        "Location": "Flemington",
+        "Personal mean total income": 57793,
+        "Personal median total income": 48027
+    },
+    {
+        "Location": "Thornbury",
+        "Personal mean total income": 62857,
+        "Personal median total income": 53153
+    },
+    {
+        "Location": "Box Hill North",
+        "Personal mean total income": 63677,
+        "Personal median total income": 49717
+    },
+    {
+        "Location": "Carlton",
+        "Personal mean total income": 46463,
+        "Personal median total income": 28320
+    },
+    {
+        "Location": "Ascot Vale",
+        "Personal mean total income": 73886,
+        "Personal median total income": 58148
+    },
+    {
+        "Location": "Essendon",
+        "Personal mean total income": 70183,
+        "Personal median total income": 55296
+    },
+    {
+        "Location": "Docklands",
+        "Personal mean total income": 62935,
+        "Personal median total income": 49001
+    },
+    {
+        "Location": "Moonee Ponds",
+        "Personal mean total income": 72364,
+        "Personal median total income": 58506
+    },
+    {
+        "Location": "Parkville",
+        "Personal mean total income": 58382,
+        "Personal median total income": 40428
+    },
+    {
+        "Location": "North Melbourne",
+        "Personal mean total income": 55162,
+        "Personal median total income": 40680
+    },
+    {
+        "Location": "Southbank",
+        "Personal mean total income": 65449,
+        "Personal median total income": 48313
+    },
+    {
+        "Location": "Albert Park",
+        "Personal mean total income": 98008,
+        "Personal median total income": 62922
+    },
+    {
+        "Location": "Elwood",
+        "Personal mean total income": 77285,
+        "Personal median total income": 62100
+    },
+    {
+        "Location": "Epping",
+        "Personal mean total income": 53750,
+        "Personal median total income": 50080
+    },
+    {
+        "Location": "Port Melbourne",
+        "Personal mean total income": 93970,
+        "Personal median total income": 72417
+    },
+    {
+        "Location": "St Kilda East",
+        "Personal mean total income": 62679,
+        "Personal median total income": 52634
+    },
+    {
+        "Location": "South Melbourne",
+        "Personal mean total income": 82249,
+        "Personal median total income": 60000
+    },
+    {
+        "Location": "Mernda",
+        "Personal mean total income": 56456,
+        "Personal median total income": 52000
+    },
+    {
+        "Location": "St Kilda",
+        "Personal mean total income": 61661,
+        "Personal median total income": 48639
+    },
+    {
+        "Location": "South Yarra",
+        "Personal mean total income": 74948,
+        "Personal median total income": 58438
+    },
+    {
+        "Location": "Toorak",
+        "Personal mean total income": 98128,
+        "Personal median total income": 53639
+    },
+    {
+        "Location": "Carlton North",
+        "Personal mean total income": 69254,
+        "Personal median total income": 51913
+    },
+    {
+        "Location": "Abbotsford",
+        "Personal mean total income": 65372,
+        "Personal median total income": 56242
+    },
+    {
+        "Location": "Wollert",
+        "Personal mean total income": 53909,
+        "Personal median total income": 50507
+    },
+    {
+        "Location": "Fitzroy North",
+        "Personal mean total income": 73608,
+        "Personal median total income": 56729
+    },
+    {
+        "Location": "Hawthorn East",
+        "Personal mean total income": 79984,
+        "Personal median total income": 56613
+    },
+    {
+        "Location": "Balwyn",
+        "Personal mean total income": 74734,
+        "Personal median total income": 48860
+    },
+    {
+        "Location": "Balwyn North",
+        "Personal mean total income": 71843,
+        "Personal median total income": 49634
+    },
+    {
+        "Location": "Camberwell",
+        "Personal mean total income": 85700,
+        "Personal median total income": 55826
+    },
+    {
+        "Location": "Glen Iris",
+        "Personal mean total income": 91209,
+        "Personal median total income": 61932
+    },
+    {
+        "Location": "Hawthorn",
+        "Personal mean total income": 80497,
+        "Personal median total income": 55103
+    },
+    {
+        "Location": "Kew East",
+        "Personal mean total income": 79454,
+        "Personal median total income": 55325
+    },
+    {
+        "Location": "Blackburn",
+        "Personal mean total income": 65226,
+        "Personal median total income": 51682
+    },
+    {
+        "Location": "Templestowe Lower",
+        "Personal mean total income": 64398,
+        "Personal median total income": 50962
+    },
+    {
+        "Location": "Burwood East",
+        "Personal mean total income": 54279,
+        "Personal median total income": 44563
+    },
+    {
+        "Location": "Box Hill",
+        "Personal mean total income": 53021,
+        "Personal median total income": 38088
+    },
+    {
+        "Location": "Burwood",
+        "Personal mean total income": 50248,
+        "Personal median total income": 34288
+    },
+    {
+        "Location": "Beaumaris",
+        "Personal mean total income": 86016,
+        "Personal median total income": 56450
+    },
+    {
+        "Location": "Brighton East",
+        "Personal mean total income": 89770,
+        "Personal median total income": 56940
+    },
+    {
+        "Location": "Hampton",
+        "Personal mean total income": 91613,
+        "Personal median total income": 58267
+    },
+    {
+        "Location": "Sandringham",
+        "Personal mean total income": 92429,
+        "Personal median total income": 60489
+    },
+    {
+        "Location": "Bentleigh",
+        "Personal mean total income": 71556,
+        "Personal median total income": 54836
+    },
+    {
+        "Location": "Carnegie",
+        "Personal mean total income": 63733,
+        "Personal median total income": 52607
+    },
+    {
+        "Location": "Caulfield",
+        "Personal mean total income": 68440,
+        "Personal median total income": 47883
+    },
+    {
+        "Location": "Caulfield",
+        "Personal mean total income": 71216,
+        "Personal median total income": 52250
+    },
+    {
+        "Location": "Murrumbeena",
+        "Personal mean total income": 66347,
+        "Personal median total income": 53719
+    },
+    {
+        "Location": "Ormond",
+        "Personal mean total income": 64473,
+        "Personal median total income": 51667
+    },
+    {
+        "Location": "Braeside",
+        "Personal mean total income": 49425,
+        "Personal median total income": 36584
+    },
+    {
+        "Location": "Carrum",
+        "Personal mean total income": 62479,
+        "Personal median total income": 53260
+    },
+    {
+        "Location": "Chelsea",
+        "Personal mean total income": 62492,
+        "Personal median total income": 55698
+    },
+    {
+        "Location": "Cheltenham",
+        "Personal mean total income": 63358,
+        "Personal median total income": 54028
+    },
+    {
+        "Location": "Edithvale",
+        "Personal mean total income": 66978,
+        "Personal median total income": 56159
+    },
+    {
+        "Location": "Eltham",
+        "Personal mean total income": 70003,
+        "Personal median total income": 55317
+    },
+    {
+        "Location": "Mentone",
+        "Personal mean total income": 67356,
+        "Personal median total income": 55559
+    },
+    {
+        "Location": "Moorabbin",
+        "Personal mean total income": 62623,
+        "Personal median total income": 52337
+    },
+    {
+        "Location": "Moorabbin Airport",
+        "Personal mean total income": 78892,
+        "Personal median total income": 94665
+    },
+    {
+        "Location": "Bundoora",
+        "Personal mean total income": 53550,
+        "Personal median total income": 46698
+    },
+    {
+        "Location": "Mordialloc",
+        "Personal mean total income": 69168,
+        "Personal median total income": 58004
+    },
+    {
+        "Location": "Greensborough",
+        "Personal mean total income": 63669,
+        "Personal median total income": 55653
+    },
+    {
+        "Location": "Hurstbridge",
+        "Personal mean total income": 59863,
+        "Personal median total income": 51242
+    },
+    {
+        "Location": "Ivanhoe",
+        "Personal mean total income": 75898,
+        "Personal median total income": 57982
+    },
+    {
+        "Location": "Montmorency",
+        "Personal mean total income": 66258,
+        "Personal median total income": 56191
+    },
+    {
+        "Location": "Viewbank",
+        "Personal mean total income": 65198,
+        "Personal median total income": 56612
+    },
+    {
+        "Location": "Kinglake",
+        "Personal mean total income": 54588,
+        "Personal median total income": 47702
+    },
+    {
+        "Location": "Malvern",
+        "Personal mean total income": 89123,
+        "Personal median total income": 57386
+    },
+    {
+        "Location": "Panton Hill",
+        "Personal mean total income": 60430,
+        "Personal median total income": 46998
+    },
+    {
+        "Location": "Plenty",
+        "Personal mean total income": 66887,
+        "Personal median total income": 53853
+    },
+    {
+        "Location": "Research",
+        "Personal mean total income": 73209,
+        "Personal median total income": 52671
+    },
+    {
+        "Location": "Keilor East",
+        "Personal mean total income": 60500,
+        "Personal median total income": 52219
+    },
+    {
+        "Location": "Niddrie",
+        "Personal mean total income": 67567,
+        "Personal median total income": 56430
+    },
+    {
+        "Location": "Malvern East",
+        "Personal mean total income": 80607,
+        "Personal median total income": 53530
+    },
+    {
+        "Location": "Riddells Creek",
+        "Personal mean total income": 63669,
+        "Personal median total income": 55445
+    },
+    {
+        "Location": "Romsey",
+        "Personal mean total income": 59473,
+        "Personal median total income": 50446
+    },
+    {
+        "Location": "Kingsbury",
+        "Personal mean total income": 53697,
+        "Personal median total income": 39873
+    },
+    {
+        "Location": "Reservoir",
+        "Personal mean total income": 49696,
+        "Personal median total income": 45525
+    },
+    {
+        "Location": "Reservoir",
+        "Personal mean total income": 52394,
+        "Personal median total income": 46824
+    },
+    {
+        "Location": "Heidelberg",
+        "Personal mean total income": 68795,
+        "Personal median total income": 57270
+    },
+    {
+        "Location": "Heidelberg West",
+        "Personal mean total income": 53892,
+        "Personal median total income": 47204
+    },
+    {
+        "Location": "Endeavour Hills",
+        "Personal mean total income": 52575,
+        "Personal median total income": 47786
+    },
+    {
+        "Location": "Ivanhoe East",
+        "Personal mean total income": 89087,
+        "Personal median total income": 56715
+    },
+    {
+        "Location": "Watsonia",
+        "Personal mean total income": 60877,
+        "Personal median total income": 55225
+    },
+    {
+        "Location": "Croydon",
+        "Personal mean total income": 41123,
+        "Personal median total income": 32505
+    },
+    {
+        "Location": "Preston",
+        "Personal mean total income": 54921,
+        "Personal median total income": 48193
+    },
+    {
+        "Location": "Preston",
+        "Personal mean total income": 60362,
+        "Personal median total income": 52061
+    },
+    {
+        "Location": "Epping",
+        "Personal mean total income": 49536,
+        "Personal median total income": 45458
+    },
+    {
+        "Location": "Wattle Glen",
+        "Personal mean total income": 63116,
+        "Personal median total income": 53052
+    },
+    {
+        "Location": "Lalor",
+        "Personal mean total income": 46695,
+        "Personal median total income": 42858
+    },
+    {
+        "Location": "Mill Park",
+        "Personal mean total income": 52521,
+        "Personal median total income": 48065
+    },
+    {
+        "Location": "Wallan",
+        "Personal mean total income": 55593,
+        "Personal median total income": 50922
+    },
+    {
+        "Location": "Whittlesea",
+        "Personal mean total income": 56083,
+        "Personal median total income": 48806
+    },
+    {
+        "Location": "Bundoora",
+        "Personal mean total income": 55426,
+        "Personal median total income": 46508
+    },
+    {
+        "Location": "Doreen",
+        "Personal mean total income": 59765,
+        "Personal median total income": 54303
+    },
+    {
+        "Location": "Bundoora",
+        "Personal mean total income": 48318,
+        "Personal median total income": 43862
+    },
+    {
+        "Location": "Epping",
+        "Personal mean total income": 47169,
+        "Personal median total income": 44284
+    },
+    {
+        "Location": "Mill Park",
+        "Personal mean total income": 54077,
+        "Personal median total income": 48200
+    },
+    {
+        "Location": "Thomastown",
+        "Personal mean total income": 45028,
+        "Personal median total income": 41601
+    },
+    {
+        "Location": "Airport West",
+        "Personal mean total income": 61673,
+        "Personal median total income": 56619
+    },
+    {
+        "Location": "Keilor",
+        "Personal mean total income": 61975,
+        "Personal median total income": 51480
+    },
+    {
+        "Location": "Tullamarine",
+        "Personal mean total income": 52604,
+        "Personal median total income": 50419
+    },
+    {
+        "Location": "Strathmore",
+        "Personal mean total income": 71428,
+        "Personal median total income": 56815
+    },
+    {
+        "Location": "Gisborne",
+        "Personal mean total income": 68353,
+        "Personal median total income": 55495
+    },
+    {
+        "Location": "Macedon",
+        "Personal mean total income": 76868,
+        "Personal median total income": 56715
+    },
+    {
+        "Location": "Coburg North",
+        "Personal mean total income": 57267,
+        "Personal median total income": 50136
+    },
+    {
+        "Location": "Fawkner",
+        "Personal mean total income": 48785,
+        "Personal median total income": 43315
+    },
+    {
+        "Location": "Ringwood North",
+        "Personal mean total income": 65536,
+        "Personal median total income": 53320
+    },
+    {
+        "Location": "Pascoe Vale",
+        "Personal mean total income": 60971,
+        "Personal median total income": 54371
+    },
+    {
+        "Location": "Glenroy",
+        "Personal mean total income": 50035,
+        "Personal median total income": 45473
+    },
+    {
+        "Location": "Hadfield",
+        "Personal mean total income": 54695,
+        "Personal median total income": 49701
+    },
+    {
+        "Location": "Gowanbrae",
+        "Personal mean total income": 65296,
+        "Personal median total income": 57520
+    },
+    {
+        "Location": "Mickleham",
+        "Personal mean total income": 56433,
+        "Personal median total income": 52507
+    },
+    {
+        "Location": "Broadmeadows",
+        "Personal mean total income": 38944,
+        "Personal median total income": 35159
+    },
+    {
+        "Location": "Bayswater",
+        "Personal mean total income": 52743,
+        "Personal median total income": 48207
+    },
+    {
+        "Location": "Meadow Heights",
+        "Personal mean total income": 41322,
+        "Personal median total income": 38761
+    },
+    {
+        "Location": "Knoxfield",
+        "Personal mean total income": 56726,
+        "Personal median total income": 50000
+    },
+    {
+        "Location": "Campbellfield",
+        "Personal mean total income": 41603,
+        "Personal median total income": 37077
+    },
+    {
+        "Location": "Gladstone Park",
+        "Personal mean total income": 54571,
+        "Personal median total income": 49566
+    },
+    {
+        "Location": "Greenvale",
+        "Personal mean total income": 58439,
+        "Personal median total income": 50116
+    },
+    {
+        "Location": "Cranbourne East",
+        "Personal mean total income": 55295,
+        "Personal median total income": 52205
+    },
+    {
+        "Location": "Roxburgh Park",
+        "Personal mean total income": 47015,
+        "Personal median total income": 42968
+    },
+    {
+        "Location": "Craigieburn",
+        "Personal mean total income": 48545,
+        "Personal median total income": 45862
+    },
+    {
+        "Location": "Craigieburn",
+        "Personal mean total income": 53338,
+        "Personal median total income": 49269
+    },
+    {
+        "Location": "Craigieburn",
+        "Personal mean total income": 50824,
+        "Personal median total income": 47776
+    },
+    {
+        "Location": "Craigieburn",
+        "Personal mean total income": 51647,
+        "Personal median total income": 48689
+    },
+    {
+        "Location": "Rowville",
+        "Personal mean total income": 61603,
+        "Personal median total income": 52459
+    },
+    {
+        "Location": "Lysterfield",
+        "Personal mean total income": 64813,
+        "Personal median total income": 51055
+    },
+    {
+        "Location": "Rowville",
+        "Personal mean total income": 61465,
+        "Personal median total income": 52303
+    },
+    {
+        "Location": "Wantirna",
+        "Personal mean total income": 57481,
+        "Personal median total income": 49745
+    },
+    {
+        "Location": "Wantirna South",
+        "Personal mean total income": 58455,
+        "Personal median total income": 48358
+    },
+    {
+        "Location": "Donvale",
+        "Personal mean total income": 69713,
+        "Personal median total income": 49466
+    },
+    {
+        "Location": "Rowville",
+        "Personal mean total income": 57438,
+        "Personal median total income": 49875
+    },
+    {
+        "Location": "Donnybrook",
+        "Personal mean total income": 52531,
+        "Personal median total income": 38703
+    },
+    {
+        "Location": "Warrandyte",
+        "Personal mean total income": 70334,
+        "Personal median total income": 49414
+    },
+    {
+        "Location": "Boronia",
+        "Personal mean total income": 53658,
+        "Personal median total income": 49494
+    },
+    {
+        "Location": "Cranbourne South",
+        "Personal mean total income": 58341,
+        "Personal median total income": 50401
+    },
+    {
+        "Location": "Croydon Hills",
+        "Personal mean total income": 62680,
+        "Personal median total income": 51472
+    },
+    {
+        "Location": "Ringwood",
+        "Personal mean total income": 56019,
+        "Personal median total income": 48971
+    },
+    {
+        "Location": "Ringwood East",
+        "Personal mean total income": 60414,
+        "Personal median total income": 52721
+    },
+    {
+        "Location": "Belgrave",
+        "Personal mean total income": 59925,
+        "Personal median total income": 51017
+    },
+    {
+        "Location": "The Basin",
+        "Personal mean total income": 55516,
+        "Personal median total income": 49212
+    },
+    {
+        "Location": "Bayswater North",
+        "Personal mean total income": 55514,
+        "Personal median total income": 50015
+    },
+    {
+        "Location": "Croydon",
+        "Personal mean total income": 55123,
+        "Personal median total income": 50228
+    },
+    {
+        "Location": "Croydon",
+        "Personal mean total income": 58910,
+        "Personal median total income": 51016
+    },
+    {
+        "Location": "Cranbourne",
+        "Personal mean total income": 47735,
+        "Personal median total income": 45525
+    },
+    {
+        "Location": "Croydon South",
+        "Personal mean total income": 57694,
+        "Personal median total income": 52782
+    },
+    {
+        "Location": "Forest Hill",
+        "Personal mean total income": 58376,
+        "Personal median total income": 49503
+    },
+    {
+        "Location": "Pearcedale",
+        "Personal mean total income": 53672,
+        "Personal median total income": 47570
+    },
+    {
+        "Location": "Nunawading",
+        "Personal mean total income": 60300,
+        "Personal median total income": 51341
+    },
+    {
+        "Location": "Lilydale",
+        "Personal mean total income": 54257,
+        "Personal median total income": 47662
+    },
+    {
+        "Location": "Monbulk",
+        "Personal mean total income": 50356,
+        "Personal median total income": 42490
+    },
+    {
+        "Location": "Vermont",
+        "Personal mean total income": 62055,
+        "Personal median total income": 51788
+    },
+    {
+        "Location": "Mount Dandenong",
+        "Personal mean total income": 63087,
+        "Personal median total income": 50870
+    },
+    {
+        "Location": "Dandenong North",
+        "Personal mean total income": 47754,
+        "Personal median total income": 44057
+    },
+    {
+        "Location": "Vermont South",
+        "Personal mean total income": 59837,
+        "Personal median total income": 46149
+    },
+    {
+        "Location": "Healesville",
+        "Personal mean total income": 51341,
+        "Personal median total income": 44422
+    },
+    {
+        "Location": "Chirnside Park",
+        "Personal mean total income": 57043,
+        "Personal median total income": 50045
+    },
+    {
+        "Location": "Kilsyth",
+        "Personal mean total income": 53595,
+        "Personal median total income": 49265
+    },
+    {
+        "Location": "Beaconsfield",
+        "Personal mean total income": 59052,
+        "Personal median total income": 52600
+    },
+    {
+        "Location": "Montrose",
+        "Personal mean total income": 58134,
+        "Personal median total income": 50818
+    },
+    {
+        "Location": "Mooroolbark",
+        "Personal mean total income": 55644,
+        "Personal median total income": 49723
+    },
+    {
+        "Location": "Bunyip",
+        "Personal mean total income": 51786,
+        "Personal median total income": 43742
+    },
+    {
+        "Location": "Emerald",
+        "Personal mean total income": 57171,
+        "Personal median total income": 48055
+    },
+    {
+        "Location": "Koo Wee Rup",
+        "Personal mean total income": 47266,
+        "Personal median total income": 41317
+    },
+    {
+        "Location": "Hallam",
+        "Personal mean total income": 47820,
+        "Personal median total income": 45024
+    },
+    {
+        "Location": "Mount Evelyn",
+        "Personal mean total income": 53464,
+        "Personal median total income": 47574
+    },
+    {
+        "Location": "Narre Warren North",
+        "Personal mean total income": 59441,
+        "Personal median total income": 46748
+    },
+    {
+        "Location": "Endeavour Hills",
+        "Personal mean total income": 53160,
+        "Personal median total income": 47690
+    },
+    {
+        "Location": "Upwey",
+        "Personal mean total income": 59465,
+        "Personal median total income": 52450
+    },
+    {
+        "Location": "Berwick",
+        "Personal mean total income": 59377,
+        "Personal median total income": 50000
+    },
+    {
+        "Location": "Pakenham",
+        "Personal mean total income": 51235,
+        "Personal median total income": 48437
+    },
+    {
+        "Location": "Berwick",
+        "Personal mean total income": 59313,
+        "Personal median total income": 52442
+    },
+    {
+        "Location": "Doveton",
+        "Personal mean total income": 41700,
+        "Personal median total income": 40754
+    },
+    {
+        "Location": "Pakenham",
+        "Personal mean total income": 51406,
+        "Personal median total income": 47753
+    },
+    {
+        "Location": "Narre Warren",
+        "Personal mean total income": 52341,
+        "Personal median total income": 47726
+    },
+    {
+        "Location": "Narre Warren",
+        "Personal mean total income": 48898,
+        "Personal median total income": 46519
+    },
+    {
+        "Location": "Cranbourne West",
+        "Personal mean total income": 50985,
+        "Personal median total income": 49365
+    },
+    {
+        "Location": "Cranbourne North",
+        "Personal mean total income": 51959,
+        "Personal median total income": 48688
+    },
+    {
+        "Location": "Hampton Park",
+        "Personal mean total income": 45963,
+        "Personal median total income": 44788
+    },
+    {
+        "Location": "Lynbrook",
+        "Personal mean total income": 56110,
+        "Personal median total income": 52038
+    },
+    {
+        "Location": "Clarinda",
+        "Personal mean total income": 53455,
+        "Personal median total income": 47658
+    },
+    {
+        "Location": "Clayton South",
+        "Personal mean total income": 45374,
+        "Personal median total income": 41356
+    },
+    {
+        "Location": "Dandenong",
+        "Personal mean total income": 41342,
+        "Personal median total income": 38633
+    },
+    {
+        "Location": "Dingley Village",
+        "Personal mean total income": 58343,
+        "Personal median total income": 50118
+    },
+    {
+        "Location": "Noble Park North",
+        "Personal mean total income": 48607,
+        "Personal median total income": 45527
+    },
+    {
+        "Location": "Keysborough",
+        "Personal mean total income": 52824,
+        "Personal median total income": 47598
+    },
+    {
+        "Location": "Springvale",
+        "Personal mean total income": 39898,
+        "Personal median total income": 35859
+    },
+    {
+        "Location": "Springvale South",
+        "Personal mean total income": 42760,
+        "Personal median total income": 40178
+    },
+    {
+        "Location": "Noble Park",
+        "Personal mean total income": 44149,
+        "Personal median total income": 42438
+    },
+    {
+        "Location": "Noble Park",
+        "Personal mean total income": 42313,
+        "Personal median total income": 40188
+    },
+    {
+        "Location": "Ashwood",
+        "Personal mean total income": 60387,
+        "Personal median total income": 49476
+    },
+    {
+        "Location": "Clayton",
+        "Personal mean total income": 42068,
+        "Personal median total income": 32857
+    },
+    {
+        "Location": "Glen Waverley",
+        "Personal mean total income": 61101,
+        "Personal median total income": 47002
+    },
+    {
+        "Location": "Truganina",
+        "Personal mean total income": 54655,
+        "Personal median total income": 51222
+    },
+    {
+        "Location": "Glen Waverley",
+        "Personal mean total income": 57643,
+        "Personal median total income": 45871
+    },
+    {
+        "Location": "Werribee",
+        "Personal mean total income": 55918,
+        "Personal median total income": 50189
+    },
+    {
+        "Location": "Mount Waverley",
+        "Personal mean total income": 63405,
+        "Personal median total income": 49446
+    },
+    {
+        "Location": "Wheelers Hill",
+        "Personal mean total income": 63329,
+        "Personal median total income": 50187
+    },
+    {
+        "Location": "Wyndham Vale",
+        "Personal mean total income": 54402,
+        "Personal median total income": 51107
+    },
+    {
+        "Location": "Mount Waverley",
+        "Personal mean total income": 62862,
+        "Personal median total income": 50360
+    },
+    {
+        "Location": "Mulgrave",
+        "Personal mean total income": 57341,
+        "Personal median total income": 50000
+    },
+    {
+        "Location": "Ardeer",
+        "Personal mean total income": 45982,
+        "Personal median total income": 41895
+    },
+    {
+        "Location": "Oakleigh",
+        "Personal mean total income": 58313,
+        "Personal median total income": 49972
+    },
+    {
+        "Location": "Cairnlea",
+        "Personal mean total income": 52456,
+        "Personal median total income": 48151
+    },
+    {
+        "Location": "Point Cook",
+        "Personal mean total income": 67044,
+        "Personal median total income": 55045
+    },
+    {
+        "Location": "Delahey",
+        "Personal mean total income": 48093,
+        "Personal median total income": 45480
+    },
+    {
+        "Location": "Deer Park",
+        "Personal mean total income": 51308,
+        "Personal median total income": 47907
+    },
+    {
+        "Location": "Keilor Downs",
+        "Personal mean total income": 53580,
+        "Personal median total income": 48232
+    },
+    {
+        "Location": "St Albans",
+        "Personal mean total income": 41496,
+        "Personal median total income": 38574
+    },
+    {
+        "Location": "St Albans",
+        "Personal mean total income": 41227,
+        "Personal median total income": 38000
+    },
+    {
+        "Location": "Sunshine",
+        "Personal mean total income": 45780,
+        "Personal median total income": 40091
+    },
+    {
+        "Location": "Sunshine North",
+        "Personal mean total income": 44364,
+        "Personal median total income": 40296
+    },
+    {
+        "Location": "Sydenham",
+        "Personal mean total income": 52354,
+        "Personal median total income": 47753
+    },
+    {
+        "Location": "Sunshine West",
+        "Personal mean total income": 46573,
+        "Personal median total income": 43402
+    },
+    {
+        "Location": "Altona North",
+        "Personal mean total income": 58856,
+        "Personal median total income": 52310
+    },
+    {
+        "Location": "Newport",
+        "Personal mean total income": 76196,
+        "Personal median total income": 64318
+    },
+    {
+        "Location": "West Footscray",
+        "Personal mean total income": 56204,
+        "Personal median total income": 50000
+    },
+    {
+        "Location": "Seabrook",
+        "Personal mean total income": 58352,
+        "Personal median total income": 53460
+    },
+    {
+        "Location": "Williamstown",
+        "Personal mean total income": 79946,
+        "Personal median total income": 60547
+    },
+    {
+        "Location": "Melton",
+        "Personal mean total income": 49701,
+        "Personal median total income": 46349
+    },
+    {
+        "Location": "Braybrook",
+        "Personal mean total income": 48863,
+        "Personal median total income": 42781
+    },
+    {
+        "Location": "Seddon",
+        "Personal mean total income": 71368,
+        "Personal median total income": 61082
+    },
+    {
+        "Location": "Melton South",
+        "Personal mean total income": 52421,
+        "Personal median total income": 48895
+    },
+    {
+        "Location": "Footscray",
+        "Personal mean total income": 50751,
+        "Personal median total income": 43909
+    },
+    {
+        "Location": "Melton West",
+        "Personal mean total income": 49769,
+        "Personal median total income": 45865
+    },
+    {
+        "Location": "Rockbank",
+        "Personal mean total income": 46242,
+        "Personal median total income": 43255
+    },
+    {
+        "Location": "Maribyrnong",
+        "Personal mean total income": 60222,
+        "Personal median total income": 51347
+    },
+    {
+        "Location": "Yarraville",
+        "Personal mean total income": 74340,
+        "Personal median total income": 63996
+    },
+    {
+        "Location": "Bacchus Marsh",
+        "Personal mean total income": 58085,
+        "Personal median total income": 51849
+    },
+    {
+        "Location": "Hillside",
+        "Personal mean total income": 58465,
+        "Personal median total income": 52595
+    },
+    {
+        "Location": "Taylors Hill",
+        "Personal mean total income": 59324,
+        "Personal median total income": 53790
+    },
+    {
+        "Location": "Burnside",
+        "Personal mean total income": 54615,
+        "Personal median total income": 50501
+    },
+    {
+        "Location": "Point Cook",
+        "Personal mean total income": 65470,
+        "Personal median total income": 58071
+    },
+    {
+        "Location": "Burnside Heights",
+        "Personal mean total income": 55836,
+        "Personal median total income": 50975
+    },
+    {
+        "Location": "Caroline Springs",
+        "Personal mean total income": 59783,
+        "Personal median total income": 53754
+    },
+    {
+        "Location": "Hoppers Crossing",
+        "Personal mean total income": 52582,
+        "Personal median total income": 47687
+    },
+    {
+        "Location": "Hoppers Crossing",
+        "Personal mean total income": 50721,
+        "Personal median total income": 46187
+    },
+    {
+        "Location": "Point Cook",
+        "Personal mean total income": 64730,
+        "Personal median total income": 57045
+    },
+    {
+        "Location": "Laverton",
+        "Personal mean total income": 53057,
+        "Personal median total income": 46790
+    },
+    {
+        "Location": "Tarneit",
+        "Personal mean total income": 54305,
+        "Personal median total income": 50264
+    },
+    {
+        "Location": "Werribee",
+        "Personal mean total income": 50080,
+        "Personal median total income": 46095
+    },
+    {
+        "Location": "Carrum Downs",
+        "Personal mean total income": 51327,
+        "Personal median total income": 49143
+    },
+    {
+        "Location": "Werribee",
+        "Personal mean total income": 56326,
+        "Personal median total income": 51094
+    },
+    {
+        "Location": "Frankston",
+        "Personal mean total income": 51089,
+        "Personal median total income": 46793
+    },
+    {
+        "Location": "Frankston North",
+        "Personal mean total income": 47432,
+        "Personal median total income": 45053
+    },
+    {
+        "Location": "Langwarrin",
+        "Personal mean total income": 56215,
+        "Personal median total income": 50022
+    },
+    {
+        "Location": "Frankston South",
+        "Personal mean total income": 62603,
+        "Personal median total income": 51921
+    },
+    {
+        "Location": "Hastings",
+        "Personal mean total income": 51628,
+        "Personal median total income": 45022
+    },
+    {
+        "Location": "Mornington",
+        "Personal mean total income": 56896,
+        "Personal median total income": 47152
+    },
+    {
+        "Location": "Mount Eliza",
+        "Personal mean total income": 72514,
+        "Personal median total income": 52730
+    },
+    {
+        "Location": "Mount Martha",
+        "Personal mean total income": 63284,
+        "Personal median total income": 49041
+    },
+    {
+        "Location": "Skye",
+        "Personal mean total income": 60893,
+        "Personal median total income": 52597
+    },
+    {
+        "Location": "Dromana",
+        "Personal mean total income": 52733,
+        "Personal median total income": 43523
+    },
+    {
+        "Location": "Flinders",
+        "Personal mean total income": 64351,
+        "Personal median total income": 41346
+    },
+    {
+        "Location": "Rosebud",
+        "Personal mean total income": 45573,
+        "Personal median total income": 39310
+    },
+    {
+        "Location": "Somerville",
+        "Personal mean total income": 54088,
+        "Personal median total income": 47330
+    },
+    {
+        "Location": "Fairfield",
+        "Personal mean total income": 57443,
+        "Personal median total income": 45911
+    },
+    {
+        "Location": "Middle Park",
+        "Personal mean total income": 61474,
+        "Personal median total income": 54600
+    },
+    {
+        "Location": "Brookfield",
+        "Personal mean total income": 85345,
+        "Personal median total income": 54773
+    },
+    {
+        "Location": "Emerald",
+        "Personal mean total income": 66363,
+        "Personal median total income": 52846
+    },
+    {
+        "Location": "Spring Hill",
+        "Personal mean total income": 48042,
+        "Personal median total income": 30773
+    },
+    {
+        "Location": "Albion",
+        "Personal mean total income": 66996,
+        "Personal median total income": 55480
+    },
+    {
+        "Location": "Windsor",
+        "Personal mean total income": 70075,
+        "Personal median total income": 53924
+    },
+    {
+        "Location": "Reedy Creek",
+        "Personal mean total income": 60003,
+        "Personal median total income": 49444
+    },
+    {
+        "Location": "Springfield",
+        "Personal mean total income": 57144,
+        "Personal median total income": 54190
+    },
+    {
+        "Location": "Torquay",
+        "Personal mean total income": 47097,
+        "Personal median total income": 40709
+    },
+    {
+        "Location": "Burnside",
+        "Personal mean total income": 70444,
+        "Personal median total income": 52758
+    },
+    {
+        "Location": "Blackwood",
+        "Personal mean total income": 64801,
+        "Personal median total income": 57579
+    },
+    {
+        "Location": "Bayswater",
+        "Personal mean total income": 67394,
+        "Personal median total income": 57612
+    },
+    {
+        "Location": "Sorrento",
+        "Personal mean total income": 81677,
+        "Personal median total income": 55994
+    },
+    {
+        "Location": "Armadale",
+        "Personal mean total income": 52122,
+        "Personal median total income": 48650
+    },
+    {
+        "Location": "Belmont",
+        "Personal mean total income": 62383,
+        "Personal median total income": 53521
+    },
+    {
+        "Location": "Huntingdale",
+        "Personal mean total income": 63268,
+        "Personal median total income": 54554
+    },
+    {
+        "Location": "Brighton",
+        "Personal mean total income": 50493,
+        "Personal median total income": 47366
+    },
+    {
+        "Location": "Mornington",
+        "Personal mean total income": 44725,
+        "Personal median total income": 43856
+    },
+    {
+        "Location": "Montrose",
+        "Personal mean total income": 49997,
+        "Personal median total income": 47277
+    },
+    {
+        "Location": "Melbourne Airport",
+        "Personal mean total income": 63507,
+        "Personal median total income": 41600
+    },
+    {
+        "Location": "Forbes",
+        "Personal mean total income": 47246,
+        "Personal median total income": 42068
+    },
+    {
+        "Location": "Thornton",
+        "Personal mean total income": 60968,
+        "Personal median total income": 54890
+    },
+    {
+        "Location": "Belmont",
+        "Personal mean total income": 58182,
+        "Personal median total income": 48705
+    },
+    {
+        "Location": "Fairfield",
+        "Personal mean total income": 44884,
+        "Personal median total income": 40919
+    },
+    {
+        "Location": "Portarlington",
+        "Personal mean total income": 49544,
+        "Personal median total income": 40085
+    },
+    {
+        "Location": "Point Lonsdale",
+        "Personal mean total income": 54380,
+        "Personal median total income": 41693
+    },
+    {
+        "Location": "Torquay",
+        "Personal mean total income": 61688,
+        "Personal median total income": 49307
+    },
+    {
+        "Location": "Alexandra",
+        "Personal mean total income": 46032,
+        "Personal median total income": 39811
+    },
+    {
+        "Location": "Kyneton",
+        "Personal mean total income": 56260,
+        "Personal median total income": 46404
+    },
+    {
+        "Location": "Sydenham",
+        "Personal mean total income": 66484,
+        "Personal median total income": 57978
+    },
+    {
+        "Location": "Woodend",
+        "Personal mean total income": 69423,
+        "Personal median total income": 54544
+    },
+    {
+        "Location": "Newtown",
+        "Personal mean total income": 69862,
+        "Personal median total income": 57669
+    },
+    {
+        "Location": "Corio",
+        "Personal mean total income": 44099,
+        "Personal median total income": 39851
+    },
+    {
+        "Location": "Lara",
+        "Personal mean total income": 59504,
+        "Personal median total income": 52138
+    },
+    {
+        "Location": "Newcomb",
+        "Personal mean total income": 45808,
+        "Personal median total income": 42534
+    },
+    {
+        "Location": "Kilmore",
+        "Personal mean total income": 54850,
+        "Personal median total income": 48788
+    },
+    {
+        "Location": "Yea",
+        "Personal mean total income": 48174,
+        "Personal median total income": 39866
+    },
+    {
+        "Location": "St Leonards",
+        "Personal mean total income": 97113,
+        "Personal median total income": 77853
+    },
+    {
+        "Location": "Richmond",
+        "Personal mean total income": 55583,
+        "Personal median total income": 49958
+    },
+    {
+        "Location": "Windsor",
+        "Personal mean total income": 56564,
+        "Personal median total income": 50722
+    },
+    {
+        "Location": "Kew",
+        "Personal mean total income": 86610,
+        "Personal median total income": 54120
+    },
+    {
+        "Location": "Drouin",
+        "Personal mean total income": 49491,
+        "Personal median total income": 44069
+    },
+    {
+        "Location": "Warragul",
+        "Personal mean total income": 53692,
+        "Personal median total income": 44973
+    },
+    {
+        "Location": "French Island",
+        "Personal mean total income": 33135,
+        "Personal median total income": 16626
+    },
+    {
+        "Location": "Korumburra",
+        "Personal mean total income": 48538,
+        "Personal median total income": 42145
+    },
+    {
+        "Location": "Fairfield",
+        "Personal mean total income": 44561,
+        "Personal median total income": 41675
+    },
+    {
+        "Location": "Burwood",
+        "Personal mean total income": 55076,
+        "Personal median total income": 41895
+    },
+    {
+        "Location": "Bulleen",
+        "Personal mean total income": 61924,
+        "Personal median total income": 48565
+    },
+    {
+        "Location": "Doncaster",
+        "Personal mean total income": 56537,
+        "Personal median total income": 44283
+    },
+    {
+        "Location": "Templestowe",
+        "Personal mean total income": 67793,
+        "Personal median total income": 48806
+    },
+    {
+        "Location": "Aspendale Gardens",
+        "Personal mean total income": 62804,
+        "Personal median total income": 51991
+    },
+    {
+        "Location": "Melbourne",
+        "Personal mean total income": 39424,
+        "Personal median total income": 20620
+    },
+    {
+        "Location": "East Melbourne",
+        "Personal mean total income": 88598,
+        "Personal median total income": 62319
+    },
+    {
+        "Location": "Cremorne",
+        "Personal mean total income": 109156,
+        "Personal median total income": 76707
+    },
+    {
+        "Location": "Avalon",
+        "Personal mean total income": 74632,
+        "Personal median total income": 47290
+    }
+]

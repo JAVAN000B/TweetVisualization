@@ -1,0 +1,290 @@
+[
+    {
+        "Location": "Rest of NSW",
+        "Total population": 2731017,
+        "Total male": 1350013,
+        "Total female": 1381004,
+        "Age proportion": {
+            "0-9 years old": 12.6,
+            "10-19 years old": 12.3,
+            "20-29 years old": 11.6,
+            "30-39 years old": 11.2,
+            "40-49 years old": 12.3,
+            "50-59 years old": 13.4,
+            "60-69 years old": 12.6,
+            "70-79 years old": 8.8,
+            "80-89 years old": 5.2
+        },
+        "Median age": 42.1
+    },
+    {
+        "Location": "Greater Sydney",
+        "Total population": 5136919,
+        "Total male": 2551011,
+        "Total female": 2585908,
+        "Age proportion": {
+            "0-9 years old": 13.0,
+            "10-19 years old": 11.7,
+            "20-29 years old": 15.8,
+            "30-39 years old": 15.8,
+            "40-49 years old": 13.399999999999999,
+            "50-59 years old": 11.7,
+            "60-69 years old": 9.2,
+            "70-79 years old": 5.8,
+            "80-89 years old": 3.5999999999999996
+        },
+        "Median age": 35.8
+    },
+    {
+        "Location": "Rest of Vic.",
+        "Total population": 1477678,
+        "Total male": 732273,
+        "Total female": 745405,
+        "Age proportion": {
+            "0-9 years old": 12.3,
+            "10-19 years old": 12.2,
+            "20-29 years old": 11.6,
+            "30-39 years old": 11.2,
+            "40-49 years old": 12.4,
+            "50-59 years old": 13.5,
+            "60-69 years old": 12.899999999999999,
+            "70-79 years old": 8.6,
+            "80-89 years old": 5.1
+        },
+        "Median age": 42.2
+    },
+    {
+        "Location": "Greater Melbourne",
+        "Total population": 4843928,
+        "Total male": 2393751,
+        "Total female": 2450177,
+        "Age proportion": {
+            "0-9 years old": 12.7,
+            "10-19 years old": 11.5,
+            "20-29 years old": 16.4,
+            "30-39 years old": 15.8,
+            "40-49 years old": 13.5,
+            "50-59 years old": 11.6,
+            "60-69 years old": 9.0,
+            "70-79 years old": 5.9,
+            "80-89 years old": 3.7
+        },
+        "Median age": 35.6
+    },
+    {
+        "Location": "Other Territories",
+        "Total population": 4621,
+        "Total male": 2497,
+        "Total female": 2124,
+        "Age proportion": {
+            "0-9 years old": 11.8,
+            "10-19 years old": 10.5,
+            "20-29 years old": 10.3,
+            "30-39 years old": 13.899999999999999,
+            "40-49 years old": 14.399999999999999,
+            "50-59 years old": 16.1,
+            "60-69 years old": 13.600000000000001,
+            "70-79 years old": 7.0,
+            "80-89 years old": 2.5
+        },
+        "Median age": 42.9
+    },
+    {
+        "Location": "Greater Brisbane",
+        "Total population": 2412517,
+        "Total male": 1194550,
+        "Total female": 1217967,
+        "Age proportion": {
+            "0-9 years old": 13.399999999999999,
+            "10-19 years old": 12.7,
+            "20-29 years old": 15.8,
+            "30-39 years old": 14.7,
+            "40-49 years old": 13.6,
+            "50-59 years old": 11.8,
+            "60-69 years old": 9.2,
+            "70-79 years old": 5.699999999999999,
+            "80-89 years old": 3.1
+        },
+        "Median age": 35.3
+    },
+    {
+        "Location": "Rest of Qld",
+        "Total population": 2515112,
+        "Total male": 1247654,
+        "Total female": 1267458,
+        "Age proportion": {
+            "0-9 years old": 12.9,
+            "10-19 years old": 12.7,
+            "20-29 years old": 12.7,
+            "30-39 years old": 12.5,
+            "40-49 years old": 13.3,
+            "50-59 years old": 13.1,
+            "60-69 years old": 11.3,
+            "70-79 years old": 7.5,
+            "80-89 years old": 3.9
+        },
+        "Median age": 39.2
+    },
+    {
+        "Location": "Rest of SA",
+        "Total population": 389485,
+        "Total male": 195795,
+        "Total female": 193690,
+        "Age proportion": {
+            "0-9 years old": 11.8,
+            "10-19 years old": 11.899999999999999,
+            "20-29 years old": 10.2,
+            "30-39 years old": 10.7,
+            "40-49 years old": 12.3,
+            "50-59 years old": 14.2,
+            "60-69 years old": 13.899999999999999,
+            "70-79 years old": 9.6,
+            "80-89 years old": 5.2
+        },
+        "Median age": 44.7
+    },
+    {
+        "Location": "Greater Adelaide",
+        "Total population": 1334438,
+        "Total male": 656041,
+        "Total female": 678397,
+        "Age proportion": {
+            "0-9 years old": 12.1,
+            "10-19 years old": 11.7,
+            "20-29 years old": 14.3,
+            "30-39 years old": 13.6,
+            "40-49 years old": 13.0,
+            "50-59 years old": 12.7,
+            "60-69 years old": 10.7,
+            "70-79 years old": 7.1,
+            "80-89 years old": 4.800000000000001
+        },
+        "Median age": 38.7
+    },
+    {
+        "Location": "Greater Perth",
+        "Total population": 2037902,
+        "Total male": 1015211,
+        "Total female": 1022691,
+        "Age proportion": {
+            "0-9 years old": 13.2,
+            "10-19 years old": 12.0,
+            "20-29 years old": 14.9,
+            "30-39 years old": 15.2,
+            "40-49 years old": 13.5,
+            "50-59 years old": 12.0,
+            "60-69 years old": 9.6,
+            "70-79 years old": 5.9,
+            "80-89 years old": 3.4
+        },
+        "Median age": 36.1
+    },
+    {
+        "Location": "Rest of WA",
+        "Total population": 536291,
+        "Total male": 273816,
+        "Total female": 262475,
+        "Age proportion": {
+            "0-9 years old": 14.0,
+            "10-19 years old": 12.399999999999999,
+            "20-29 years old": 11.5,
+            "30-39 years old": 13.9,
+            "40-49 years old": 13.9,
+            "50-59 years old": 13.8,
+            "60-69 years old": 11.1,
+            "70-79 years old": 6.4,
+            "80-89 years old": 3.0
+        },
+        "Median age": 38.6
+    },
+    {
+        "Location": "Greater Hobart",
+        "Total population": 229260,
+        "Total male": 114081,
+        "Total female": 115179,
+        "Age proportion": {
+            "0-9 years old": 12.3,
+            "10-19 years old": 12.0,
+            "20-29 years old": 13.3,
+            "30-39 years old": 12.7,
+            "40-49 years old": 12.7,
+            "50-59 years old": 13.1,
+            "60-69 years old": 11.8,
+            "70-79 years old": 7.6,
+            "80-89 years old": 4.6
+        },
+        "Median age": 39.8
+    },
+    {
+        "Location": "Rest of Tas.",
+        "Total population": 293150,
+        "Total male": 144467,
+        "Total female": 148683,
+        "Age proportion": {
+            "0-9 years old": 11.5,
+            "10-19 years old": 12.1,
+            "20-29 years old": 11.2,
+            "30-39 years old": 10.6,
+            "40-49 years old": 12.5,
+            "50-59 years old": 14.5,
+            "60-69 years old": 13.8,
+            "70-79 years old": 9.100000000000001,
+            "80-89 years old": 4.6
+        },
+        "Median age": 44.1
+    },
+    {
+        "Location": "Rest of NT",
+        "Total population": 98598,
+        "Total male": 50072,
+        "Total female": 48526,
+        "Age proportion": {
+            "0-9 years old": 16.7,
+            "10-19 years old": 14.6,
+            "20-29 years old": 16.9,
+            "30-39 years old": 16.2,
+            "40-49 years old": 13.399999999999999,
+            "50-59 years old": 11.600000000000001,
+            "60-69 years old": 7.1,
+            "70-79 years old": 2.5,
+            "80-89 years old": 0.8
+        },
+        "Median age": 30.9
+    },
+    {
+        "Location": "Greater Darwin",
+        "Total population": 148919,
+        "Total male": 78483,
+        "Total female": 70436,
+        "Age proportion": {
+            "0-9 years old": 14.2,
+            "10-19 years old": 11.3,
+            "20-29 years old": 17.1,
+            "30-39 years old": 18.5,
+            "40-49 years old": 14.399999999999999,
+            "50-59 years old": 12.0,
+            "60-69 years old": 7.9,
+            "70-79 years old": 3.4000000000000004,
+            "80-89 years old": 1.1
+        },
+        "Median age": 33.6
+    },
+    {
+        "Location": "Australian Capital Territory",
+        "Total population": 412025,
+        "Total male": 204055,
+        "Total female": 207970,
+        "Age proportion": {
+            "0-9 years old": 13.4,
+            "10-19 years old": 11.6,
+            "20-29 years old": 16.5,
+            "30-39 years old": 16.2,
+            "40-49 years old": 13.600000000000001,
+            "50-59 years old": 11.5,
+            "60-69 years old": 8.9,
+            "70-79 years old": 5.4,
+            "80-89 years old": 3.0
+        },
+        "Median age": 35.0
+    }
+]

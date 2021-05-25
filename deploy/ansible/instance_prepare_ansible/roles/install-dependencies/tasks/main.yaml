@@ -1,0 +1,22 @@
+---
+
+- name: update_upgrade
+  become: yes
+  apt:
+    upgrade: yes
+    update_cache: yes
+    cache_valid_time: 86400 #One day
+
+- name: install_dependency
+  become: yes
+  apt:
+    name: ['vim','git', 'python3-pip']
+    state: latest
+
+# - name: touch_text
+#   become: yes
+#   file:
+#     path: /home/ubuntu/test
+#     state: touch
+#     mode: u+rwx
+#     owner: ubuntu

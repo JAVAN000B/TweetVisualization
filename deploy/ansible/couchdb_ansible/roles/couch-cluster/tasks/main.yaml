@@ -1,0 +1,30 @@
+---
+
+- name: create cluser curl1
+  shell: >
+    curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
+    --header "Content-Type: application/json"
+    --data "{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\",
+    \"username\": \"{{item.user}}\", \"password\":\"{{item.pass}}\", \"port\": \"5984\",
+    \"remote_node\": \"{{ansible_default_ipv4['address']}}\", \"node_count\": \"3\",
+    \"remote_current_user\":\"{{item.user}}\", \"remote_current_password\":\"{{item.pass}}\"}"
+  loop: '{{couchdb}}'
+
+- name: create cluser curl2
+  shell: >
+    curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
+    --header "Content-Type: application/json"
+    --data "{\"action\": \"add_node\", \"host\":\"{{ansible_default_ipv4['address']}}\",
+    \"port\": \"5984\", \"username\": \"{{item.user}}\", \"password\":\"{item.pass}\"}"
+  loop: '{{couchdb}}'
+
+- name: create cluster curl3
+  shell: curl -XGET "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/"
+  loop: '{{couchdb}}'
+
+- name: create cluster curl4
+  shell: >
+    curl -XPOST "http://{{item.user}}:{{item.pass}}@{{groups['masternode'][0]}}:5984/_cluster_setup"
+    --header "Content-Type: application/json" --data "{\"action\": \"finish_cluster\"}"
+
+  loop: '{{couchdb}}'

@@ -1,0 +1,315 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    0.0,
+    0.0,
+    -1.0,
+    -1.0
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 45289,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Rest of NSW",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 53261,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "1RNSW",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e21"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 52208,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Greater Sydney",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 66665,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "1GSYD",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 43648,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Rest of Vic.",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 50530,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "2RVIC",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e1f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 49696,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Greater Melbourne",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 60711,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "2GMEL",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e1e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 50470,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Greater Brisbane",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 60272,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "3GBRI",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e1d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 44987,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Rest of Qld",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 53963,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "3RQLD",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e1c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 41740,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Rest of SA",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 47527,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "4RSAU",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 48792,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Greater Adelaide",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 55967,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "4GADE",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e1a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 53159,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Greater Perth",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 66510,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "5GPER",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e19"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 47775,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Rest of WA",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 60084,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "5RWAU",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e18"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 47230,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Greater Hobart",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 53241,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "6GHOB",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 42623,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Rest of Tas.",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 48124,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "6RTAS",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e16"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 45659,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Rest of NT",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 52891,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "7RNTE",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 60437,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Greater Darwin",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 69962,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "7GDAR",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": 64654,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Australian Capital Territory",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": 71250,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "8ACTE",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e13"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_3000_pr_wk_pc": null,
+        "estimates_personal_income_year_ended_30_june_median_employee": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_nl_pc": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ngtve_pc": null,
+        "gccsa_name_2016": "Other Territories",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_2000_2999_pr_wk_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_1000_1999_pr_wk_pc": null,
+        "yr": 2017,
+        "estimates_personal_income_year_ended_30_june_mean_employee": null,
+        "ttl_prsnl_incme_wkly_prsns_agd_15_yrs_cnss_ernng_1_499_pr_wk_pc": null,
+        "gccsa_code_2016": "9OTER",
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_indqtly_dscrb_std_pc": null,
+        "tl_prsnl_incme_wkly_prsn_agd_15_yrs_cns_erng_500_999_pr_wk_pc": null
+      },
+      "id": "abs_data_by_region_income_asgs_gcc_2011_2019.fid--6db7a557_1795ca2614c_-7e12"
+    }
+  ]
+}
